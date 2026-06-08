@@ -1,0 +1,25 @@
+{
+    "id": "production-env-uuid",
+    "name": "Production Environment",
+    "values": [
+        {
+            "key": "base_url",
+            "value": "http://98.82.185.94",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "current_cart_id",
+            "value": "",
+            "type": "any",
+            "enabled": true
+        },
+        {
+            "key": "current_item_id",
+            "value": "",
+            "type": "any",
+            "enabled": true
+        }
+    ],
+    "_postman_variable_scope": "environment"
+}

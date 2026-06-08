@@ -48,3 +48,29 @@ jobs:
     - name: Run Full Lifecycle Suite
       run: |
         newman run cart_collection.json -e local_env.json --iteration-count 1
+    deploy:
+    name: Deploy to AWS EC2
+    needs: test-api  # This ensures it ONLY deploys if the Newman tests pass!
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' # Only deploy when pushing to the main branch
+
+    steps:
+      - name: SSH into EC2 and Deploy
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USERNAME }}
+          key: ${{ secrets.EC2_PRIVATE_KEY }}
+          script: |
+            cd CART
+            git pull origin main
+            
+            # Stop and remove the old container (the || true prevents errors if it's already stopped)
+            sudo docker stop live-cart-api || true
+            sudo docker rm live-cart-api || true
+            
+            # Build the new image with the latest code
+            sudo docker build -t cart-api .
+            
+            # Run the new container
+            sudo docker run -d -p 80:8000 --name live-cart-api cart-api
