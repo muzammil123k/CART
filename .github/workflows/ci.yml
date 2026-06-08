@@ -27,6 +27,5 @@ jobs:
         uvicorn app:app --host 0.0.0.0 --port 8000 &
         sleep 3 
 
-    # We replaced Newman with a simple Health Check!
     - name: Run API Health Check
       run: curl -f http://localhost:8000/docs
