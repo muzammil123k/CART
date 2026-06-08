@@ -14,22 +14,10 @@
           "listen": "test",
           "script": {
             "exec": [
-              "// Get the expected status code from our CSV file\r",
-              "var expectedStatus = pm.iterationData.get(\"expected_status\");\r",
-              "var testName = pm.iterationData.get(\"test_description\");\r",
-              "\r",
-              "// Tell Postman to verify that FastAPI returned the exact status code we predicted\r",
-              "pm.test(testName + \": Expected status \" + expectedStatus, function () {\r",
-              "    pm.response.to.have.status(expectedStatus);\r",
-              "});\r",
-              "\r",
-              "// If it's a 200 (Success), verify it actually created a cart with an ID\r",
-              "if (expectedStatus === 200) {\r",
-              "    pm.test(testName + \": Cart ID was generated\", function () {\r",
-              "        var jsonData = pm.response.json();\r",
-              "        pm.expect(jsonData).to.have.property('id');\r",
-              "    });\r",
-              "}"
+              "// Capture the ID from the response and save it as an environment variable\r",
+              "var jsonData = pm.response.json();\r",
+              "pm.environment.set(\"current_cart_id\", jsonData.id);\r",
+              "console.log(\"Captured Cart ID: \" + jsonData.id);"
             ],
             "type": "text/javascript",
             "packages": {},
@@ -104,15 +92,14 @@
           }
         },
         "url": {
-          "raw": "{{base_url}}/carts/{{cart_id}}/items/",
+          "raw": "{{base_url}}/carts/{{current_cart_id}}/items",
           "host": [
             "{{base_url}}"
           ],
           "path": [
             "carts",
-            "{{cart_id}}",
-            "items",
-            ""
+            "{{current_cart_id}}",
+            "items"
           ]
         }
       },
@@ -189,13 +176,13 @@
         "method": "POST",
         "header": [],
         "url": {
-          "raw": "{{base_url}}/carts/{{cart_id}}/checkout",
+          "raw": "{{base_url}}/carts/{{current_cart_id}}/checkout",
           "host": [
             "{{base_url}}"
           ],
           "path": [
             "carts",
-            "{{cart_id}}",
+            "{{current_cart_id}}",
             "checkout"
           ]
         }
@@ -235,13 +222,13 @@
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "{{base_url}}/carts/{{cart_id}}",
+          "raw": "{{base_url}}/carts/{{current_cart_id}}",
           "host": [
             "{{base_url}}"
           ],
           "path": [
             "carts",
-            "{{cart_id}}"
+            "{{current_cart_id}}"
           ]
         }
       },

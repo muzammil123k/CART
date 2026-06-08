@@ -1,40 +1,22 @@
 {
-	"id": "8ad739e8-d12a-4297-ac31-bcb5adc3211d",
-	"name": "Local Development",
-	"values": [
-		{
-			"key": "Variable",
-			"value": "",
-			"type": "default",
-			"enabled": true
-		},
-		{
-			"key": "Type",
-			"value": "",
-			"type": "default",
-			"enabled": true
-		},
-		{
-			"key": "Initial Value",
-			"value": "",
-			"type": "default",
-			"enabled": true
-		},
-		{
-			"key": "Current Value",
-			"value": "",
-			"type": "default",
-			"enabled": true
-		},
-		{
-			"key": "base_url",
-			"value": "http://localhost:8000",
-			"type": "default",
-			"enabled": true
-		}
-	],
-	"color": null,
-	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2026-06-05T17:50:55.149Z",
-	"_postman_exported_using": "Postman/12.13.6"
+    "id": "8ad739e8-d12a-4297-ac31-bcb5adc3211d",
+    "name": "Local Development",
+    "values": [
+        {
+            "key": "base_url",
+            "value": "http://localhost:8000",
+            "type": "default",
+            "enabled": true
+        },
+        {
+            "key": "current_cart_id",
+            "value": "",
+            "type": "any",
+            "enabled": true
+        }
+    ],
+    "color": null,
+    "_postman_variable_scope": "environment",
+    "_postman_exported_at": "2026-06-05T17:50:55.149Z",
+    "_postman_exported_using": "Postman/12.13.6"
 }

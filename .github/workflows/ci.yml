@@ -27,5 +27,10 @@ jobs:
         uvicorn app:app --host 0.0.0.0 --port 8000 &
         sleep 3 
 
-    - name: Run API Health Check
-      run: curl -f http://localhost:8000/docs
+    - name: Install Node.js & Newman
+      run: |
+        sudo npm install -g newman
+
+    - name: Run Full Lifecycle Suite
+      run: |
+        newman run cart_collection.json -e local_env.json --iteration-count 1
