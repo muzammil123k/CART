@@ -1,0 +1,51 @@
+test_description,cart_id,expected_status
+1_Happy_Path_Standard,11,200
+2_Idempotency_Check,11,404
+3_Failure_Cart_Not_Found,999999,404
+4_Failure_Cart_Zero,0,404
+5_Failure_Cart_Negative,-1,404
+6_Boundary_Max_Int,2147483647,404
+7_Boundary_Overflow_Int,2147483648,404
+8_Boundary_Massive_Int,9999999999999,404
+9_TypeHack_Float,1.5,422
+10_TypeHack_String,hack,422
+11_TypeHack_Boolean_True,true,422
+12_TypeHack_Boolean_False,false,422
+13_TypeHack_Array,"[1]",422
+14_TypeHack_Object,"{""id"":1}",422
+15_TypeHack_Null,null,422
+16_TypeHack_Undefined,undefined,422
+17_Security_SQLi_OR,"1 OR 1=1",422
+18_Security_SQLi_DROP,"1; DROP TABLE carts;",422
+19_Security_SQLi_Quote,""" OR """"=""",422
+20_Security_XSS_Basic,"<script>alert(1)</script>",404
+21_Security_XSS_Img,"<img src=x onerror=alert(1)>",422
+22_Security_Command_Injection,"1; rm -rf /",422
+23_Security_Path_Traversal,../../../etc/passwd,404
+24_Security_Path_Double,..%2f..%2f,404
+25_Security_Template_Injection,{{7*7}},422
+26_Format_Empty_String,"",405
+27_Format_Whitespace," 9998 ",404
+28_Format_Scientific,1e2,404
+29_Format_Hex,0x1A,404
+30_Format_Emoji,🌞,422
+31_Format_Special_Chars,!@#$%,422
+32_Format_Chinese,删除,422
+33_Format_Arabic,عربة,422
+34_Format_Tab,\t1,404
+35_Format_Newline,\n1,404
+36_TypeHack_Math,1+1,422
+37_TypeHack_Padded_Zero,00009999,404
+38_Format_URL_Encoded,%31,404
+39_Security_Null_Byte,1\u0000,404
+40_Security_Blind_SQLi,1 AND SLEEP(5),422
+41_Security_LDAP,admin*),422
+42_Security_CRLF,%0d%0a,422
+43_Security_XML,<cart>1</cart>,404
+44_TypeHack_UUID,123e4567-e89b-12d3-a456-426614174000,422
+45_TypeHack_Mixed_Alpha,1a2b,422
+46_Security_Bypass,1/../1,404
+47_Security_NoSQL,"{""$gt"":""""}",422
+48_TypeHack_Float_No_Leading,.5,422
+49_Format_Scientific_Large,1e6,404
+50_The_Kitchen_Sink,"<script>DROP TABLE;</script>",404

@@ -1,0 +1,51 @@
+test_description,cart_id,item_id,expected_status
+1_Happy_Path_Standard,1,1,404
+2_Failure_Cart_Not_Found,999999,1,404
+3_Failure_Item_Not_Found,1,999999,404
+4_Failure_Cart_Zero,0,1,404
+5_Failure_Item_Zero,1,0,404
+6_Failure_Cart_Negative,-1,1,404
+7_Failure_Item_Negative,1,-1,404
+8_TypeHack_Cart_Float,1.5,1,422
+9_TypeHack_Item_Float,1,1.5,422
+10_TypeHack_Cart_String,hack,1,422
+11_TypeHack_Item_String,1,hack,422
+12_TypeHack_Cart_BooleanTrue,true,1,422
+13_TypeHack_Item_BooleanTrue,1,true,422
+14_TypeHack_Cart_BooleanFalse,false,1,422
+15_TypeHack_Item_BooleanFalse,1,false,422
+16_Security_SQLi_Cart,"1 OR 1=1",1,422
+17_Security_SQLi_Item,1,"1 OR 1=1",422
+18_Security_SQLi_Drop_Cart,"1; DROP TABLE carts;",1,422
+19_Security_SQLi_Drop_Item,1,"1; DROP TABLE items;",422
+20_Security_XSS_Cart,"<script>alert(1)</script>",1,404
+21_Security_XSS_Item,1,"<script>alert(1)</script>",404
+22_Security_PathTraversal_Cart,../../../etc/passwd,1,404
+23_Security_PathTraversal_Item,1,../../../etc/passwd,404
+24_Security_Command_Cart,"1; rm -rf /",1,404
+25_Security_Command_Item,1,"1; rm -rf /",422
+26_TypeHack_Cart_Scientific,1e1,1,404
+27_TypeHack_Item_Scientific,1,1e1,404
+28_TypeHack_Cart_Scientific_Large,1e6,1,404
+29_TypeHack_Item_Scientific_Large,1,1e6,404
+30_Boundary_Cart_Max_Int,2147483647,1,404
+31_Boundary_Item_Max_Int,1,2147483647,404
+32_Boundary_Cart_Overflow,2147483648,1,404
+33_Boundary_Item_Overflow,1,2147483648,404
+34_TypeHack_Cart_Hex,0x1A,1,404
+35_TypeHack_Item_Hex,1,0x1A,404
+36_Format_Cart_Whitespace," 1 ",1,404
+37_Format_Item_Whitespace,1," 1 ",404
+38_Format_Cart_EmptyString,"",1,404
+39_Format_Item_EmptyString,1,"",405
+40_TypeHack_Cart_Array,"[1]",1,422
+41_TypeHack_Item_Array,1,"[1]",422
+42_TypeHack_Cart_Object,"{""id"":1}",1,422
+43_TypeHack_Item_Object,1,"{""id"":1}",422
+44_Security_NullByte_Cart,1\u0000,1,404
+45_Security_NullByte_Item,1,1\u0000,404
+46_Format_Emoji_Cart,🌞,1,422
+47_Format_Emoji_Item,1,🚀,422
+48_TypeHack_Both_Float,1.5,1.5,422
+49_Security_Both_SQLi,"1 OR 1=1","1 OR 1=1",422
+50_The_Kitchen_Sink,"<script>",9999999999999,422

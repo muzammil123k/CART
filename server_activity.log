@@ -1,0 +1,1382 @@
+2026-06-05 18:41:30,373 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-06-05 18:41:30,373 - uvicorn.error - INFO - Started reloader process [12100] using WatchFiles
+2026-06-05 18:41:31,090 - uvicorn.error - INFO - Started server process [10172]
+2026-06-05 18:41:31,090 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-05 18:41:31,091 - uvicorn.error - INFO - Application startup complete.
+2026-06-05 19:13:39,958 - uvicorn.access - INFO - 127.0.0.1:51462 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 19:20:05,482 - uvicorn.error - WARNING - WatchFiles detected changes in 'app.py'. Reloading...
+2026-06-05 19:20:05,534 - uvicorn.error - INFO - Shutting down
+2026-06-05 19:20:05,644 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-05 19:20:05,645 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-05 19:20:05,645 - uvicorn.error - INFO - Finished server process [10172]
+2026-06-05 19:20:07,167 - uvicorn.error - INFO - Started server process [6448]
+2026-06-05 19:20:07,167 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-05 19:20:07,168 - uvicorn.error - INFO - Application startup complete.
+2026-06-05 19:20:15,917 - uvicorn.error - INFO - Shutting down
+2026-06-05 19:20:16,026 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-05 19:20:16,026 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-05 19:20:16,026 - uvicorn.error - INFO - Finished server process [6448]
+2026-06-05 19:20:16,172 - uvicorn.error - INFO - Stopping reloader process [12100]
+2026-06-05 19:20:19,075 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-06-05 19:20:19,076 - uvicorn.error - INFO - Started reloader process [2880] using WatchFiles
+2026-06-05 19:20:20,243 - uvicorn.error - INFO - Started server process [18316]
+2026-06-05 19:20:20,243 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-05 19:20:20,243 - uvicorn.error - INFO - Application startup complete.
+2026-06-05 19:22:25,517 - uvicorn.error - INFO - Shutting down
+2026-06-05 19:22:25,626 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-05 19:22:25,627 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-05 19:22:25,627 - uvicorn.error - INFO - Finished server process [18316]
+2026-06-05 19:22:25,789 - uvicorn.error - INFO - Stopping reloader process [2880]
+2026-06-05 19:51:56,533 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-06-05 19:51:56,533 - uvicorn.error - INFO - Started reloader process [18748] using WatchFiles
+2026-06-05 19:51:57,710 - uvicorn.error - INFO - Started server process [9692]
+2026-06-05 19:51:57,710 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-05 19:51:57,711 - uvicorn.error - INFO - Application startup complete.
+2026-06-05 19:55:00,499 - uvicorn.access - INFO - 127.0.0.1:59169 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 20:46:58,406 - uvicorn.access - INFO - 127.0.0.1:52572 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 20:47:09,355 - uvicorn.access - INFO - 127.0.0.1:52577 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 20:57:49,985 - uvicorn.access - INFO - 127.0.0.1:62005 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 20:57:54,215 - uvicorn.access - INFO - 127.0.0.1:62005 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 20:57:56,097 - uvicorn.access - INFO - 127.0.0.1:62005 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 21:00:09,620 - uvicorn.access - INFO - 127.0.0.1:53286 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:54:39,779 - uvicorn.access - INFO - 127.0.0.1:50488 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:25,722 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:25,831 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:25,942 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:26,034 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:26,128 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:26,208 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:26,311 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:26,403 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:26,497 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:26,594 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:26,687 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:26,773 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:26,873 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:26,976 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:27,062 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:27,159 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:27,247 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:27,324 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:27,398 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:27,503 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:27,598 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:27,691 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:27,776 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:27,868 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:27,960 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:28,055 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:28,154 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:28,217 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:28,309 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:28,401 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:28,489 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:28,557 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:28,634 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:28,730 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:28,824 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:28,917 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:29,012 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:29,098 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:29,191 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:29,297 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:29,403 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:29,497 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:29,584 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:29,682 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:29,768 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:29,870 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:29,965 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 200
+2026-06-05 22:55:30,053 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:30,146 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-05 22:55:30,242 - uvicorn.access - INFO - 127.0.0.1:50491 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:15:39,863 - uvicorn.error - WARNING - WatchFiles detected changes in 'schemas.py'. Reloading...
+2026-06-06 00:15:39,958 - uvicorn.error - INFO - Shutting down
+2026-06-06 00:15:40,068 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-06 00:15:40,069 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-06 00:15:40,070 - uvicorn.error - INFO - Finished server process [9692]
+2026-06-06 00:17:46,693 - uvicorn.error - WARNING - WatchFiles detected changes in 'schemas.py'. Reloading...
+2026-06-06 00:17:53,519 - uvicorn.error - INFO - Stopping reloader process [18748]
+2026-06-06 00:20:14,716 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-06-06 00:20:14,716 - uvicorn.error - INFO - Started reloader process [21704] using WatchFiles
+2026-06-06 00:20:16,035 - uvicorn.error - INFO - Started server process [9044]
+2026-06-06 00:20:16,035 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-06 00:20:16,035 - uvicorn.error - INFO - Application startup complete.
+2026-06-06 00:20:33,115 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:33,242 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:33,317 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:33,410 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:33,506 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:33,600 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:33,685 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:33,779 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:33,858 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:33,952 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:34,038 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:34,143 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:34,241 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:34,347 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:34,434 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:34,526 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:34,619 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:34,711 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:34,796 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:34,889 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:34,983 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:35,077 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:35,164 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:35,250 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:35,342 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:35,438 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:35,530 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:35,609 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:35,703 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:35,781 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:35,858 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:35,954 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:36,047 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:36,141 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:36,233 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:36,328 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:36,423 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:36,506 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:36,613 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:36,718 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:36,798 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:36,888 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:36,981 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:37,060 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:37,148 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:37,232 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:37,325 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:20:37,412 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:37,489 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:20:37,583 - uvicorn.access - INFO - 127.0.0.1:54911 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:26:43,007 - uvicorn.error - WARNING - WatchFiles detected changes in 'schemas.py'. Reloading...
+2026-06-06 00:26:43,028 - uvicorn.error - INFO - Shutting down
+2026-06-06 00:26:43,138 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-06 00:26:43,138 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-06 00:26:43,138 - uvicorn.error - INFO - Finished server process [9044]
+2026-06-06 00:27:44,998 - uvicorn.error - WARNING - WatchFiles detected changes in 'schemas.py'. Reloading...
+2026-06-06 00:29:22,248 - uvicorn.error - WARNING - WatchFiles detected changes in 'schemas.py'. Reloading...
+2026-06-06 00:29:29,648 - uvicorn.error - INFO - Stopping reloader process [21704]
+2026-06-06 00:33:27,273 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-06-06 00:33:27,273 - uvicorn.error - INFO - Started reloader process [17684] using WatchFiles
+2026-06-06 00:33:28,645 - uvicorn.error - INFO - Started server process [17944]
+2026-06-06 00:33:28,646 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-06 00:33:28,646 - uvicorn.error - INFO - Application startup complete.
+2026-06-06 00:33:45,204 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:45,337 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:45,481 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:45,575 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:45,670 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:45,759 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:45,852 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:45,929 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:46,022 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:46,114 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:46,208 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:46,284 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:46,378 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:46,466 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:46,533 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:46,626 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:46,718 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:46,810 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:46,916 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:47,004 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:47,078 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:47,169 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:47,262 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:47,357 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:47,435 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:47,513 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:47,590 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:47,684 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:47,787 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:47,878 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:47,965 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:48,059 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:48,138 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:48,230 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:48,325 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:48,418 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:48,522 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:48,621 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:48,717 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:48,794 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:48,899 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:48,989 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:33:49,061 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:49,154 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:49,232 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:49,327 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:49,421 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:49,513 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:49,561 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:33:49,638 - uvicorn.access - INFO - 127.0.0.1:64435 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:40:14,216 - uvicorn.error - WARNING - WatchFiles detected changes in 'schemas.py'. Reloading...
+2026-06-06 00:40:14,269 - uvicorn.error - INFO - Shutting down
+2026-06-06 00:40:14,379 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-06 00:40:14,379 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-06 00:40:14,379 - uvicorn.error - INFO - Finished server process [17944]
+2026-06-06 00:40:38,726 - uvicorn.error - WARNING - WatchFiles detected changes in 'schemas.py'. Reloading...
+2026-06-06 00:40:40,459 - uvicorn.error - INFO - Started server process [14144]
+2026-06-06 00:40:40,459 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-06 00:40:40,460 - uvicorn.error - INFO - Application startup complete.
+2026-06-06 00:40:43,406 - uvicorn.error - INFO - Shutting down
+2026-06-06 00:40:43,515 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-06 00:40:43,516 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-06 00:40:43,516 - uvicorn.error - INFO - Finished server process [14144]
+2026-06-06 00:40:44,765 - uvicorn.error - INFO - Stopping reloader process [17684]
+2026-06-06 00:40:48,887 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-06-06 00:40:48,888 - uvicorn.error - INFO - Started reloader process [19680] using WatchFiles
+2026-06-06 00:40:50,822 - uvicorn.error - INFO - Started server process [22236]
+2026-06-06 00:40:50,822 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-06 00:40:50,823 - uvicorn.error - INFO - Application startup complete.
+2026-06-06 00:41:52,832 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:52,969 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:53,077 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:53,169 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:53,264 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:53,336 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:53,446 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:53,540 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:53,600 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:53,677 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:53,769 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:53,861 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:53,963 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:54,057 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:54,158 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:54,238 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:54,331 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:54,422 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:54,515 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:54,587 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:54,658 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:54,735 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:54,826 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:54,920 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:55,011 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:55,105 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:55,197 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:55,290 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:55,372 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:55,464 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:55,560 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:55,644 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:55,738 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:55,830 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:55,923 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:56,017 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:56,118 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:56,214 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:56,316 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:56,405 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:56,495 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:56,598 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 200
+2026-06-06 00:41:56,668 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:56,760 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:56,854 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:56,933 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:57,026 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:57,105 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:57,198 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:41:57,293 - uvicorn.access - INFO - 127.0.0.1:64438 - "POST /carts/ HTTP/1.1" 422
+2026-06-06 00:59:02,440 - cart_api - INFO - Successfully added item 2 to cart 1 at price 89.99
+2026-06-06 00:59:02,442 - uvicorn.access - INFO - 127.0.0.1:58897 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 00:59:02,562 - cart_api - INFO - Successfully added item 3 to cart 1 at price 89.99
+2026-06-06 00:59:02,563 - uvicorn.access - INFO - 127.0.0.1:58897 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 00:59:02,668 - cart_api - INFO - Successfully added item 4 to cart 1 at price 89.99
+2026-06-06 00:59:02,669 - uvicorn.access - INFO - 127.0.0.1:58897 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 00:59:02,753 - uvicorn.access - INFO - 127.0.0.1:58897 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:02,847 - uvicorn.access - INFO - 127.0.0.1:58897 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:02,940 - uvicorn.access - INFO - 127.0.0.1:58897 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:03,016 - uvicorn.access - INFO - 127.0.0.1:58897 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:03,111 - uvicorn.access - INFO - 127.0.0.1:58897 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:03,190 - cart_api - WARNING - Cart with ID 0 was not found.
+2026-06-06 00:59:03,191 - uvicorn.access - INFO - 127.0.0.1:58897 - "POST /carts/0/items/ HTTP/1.1" 500
+2026-06-06 00:59:03,191 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 67, in add_item_to_cart
+    raise exceptions.CartNotFoundError(cart_id=cart_id)
+exceptions.CartNotFoundError: Cart with ID 0 was not found.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 421, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)  # type: ignore[arg-type]
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 32, in cart_not_found_handler
+    return JSONResponse(
+           ^^^^^^^^^^^^
+NameError: name 'JSONResponse' is not defined
+2026-06-06 00:59:03,625 - cart_api - WARNING - Cart with ID 1 was not found.
+2026-06-06 00:59:03,626 - uvicorn.access - INFO - 127.0.0.1:58899 - "POST /carts/1/items/ HTTP/1.1" 500
+2026-06-06 00:59:03,627 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 70, in add_item_to_cart
+    raise exceptions.CartNotFoundError(cart_id=cart_id)
+exceptions.CartNotFoundError: Cart with ID 1 was not found.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 421, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)  # type: ignore[arg-type]
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 32, in cart_not_found_handler
+    return JSONResponse(
+           ^^^^^^^^^^^^
+NameError: name 'JSONResponse' is not defined
+2026-06-06 00:59:03,697 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:03,790 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:03,875 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/1.5/items/ HTTP/1.1" 422
+2026-06-06 00:59:03,972 - cart_api - INFO - Successfully added item 5 to cart 1 at price 89.99
+2026-06-06 00:59:03,974 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 00:59:04,067 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:04,161 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:04,256 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/hack/items/ HTTP/1.1" 422
+2026-06-06 00:59:04,363 - cart_api - INFO - Successfully added item 6 to cart 1 at price 89.99
+2026-06-06 00:59:04,364 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 00:59:04,465 - cart_api - INFO - Successfully added item 7 to cart 1 at price 89.99
+2026-06-06 00:59:04,466 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 00:59:04,552 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/true/items/ HTTP/1.1" 422
+2026-06-06 00:59:04,636 - cart_api - INFO - Successfully added item 8 to cart 1 at price 89.99
+2026-06-06 00:59:04,637 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 00:59:04,724 - cart_api - WARNING - Cart with ID 1 was not found.
+2026-06-06 00:59:04,724 - uvicorn.access - INFO - 127.0.0.1:58905 - "POST /carts/1/items/ HTTP/1.1" 500
+2026-06-06 00:59:04,724 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 70, in add_item_to_cart
+    raise exceptions.CartNotFoundError(cart_id=cart_id)
+exceptions.CartNotFoundError: Cart with ID 1 was not found.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 421, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)  # type: ignore[arg-type]
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 32, in cart_not_found_handler
+    return JSONResponse(
+           ^^^^^^^^^^^^
+NameError: name 'JSONResponse' is not defined
+2026-06-06 00:59:04,823 - cart_api - INFO - Successfully added item 9 to cart 10 at price 89.99
+2026-06-06 00:59:04,824 - uvicorn.access - INFO - 127.0.0.1:58907 - "POST /carts/10/items/ HTTP/1.1" 200
+2026-06-06 00:59:04,908 - uvicorn.access - INFO - 127.0.0.1:58907 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:04,986 - uvicorn.access - INFO - 127.0.0.1:58907 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:05,064 - cart_api - WARNING - Cart with ID 0 was not found.
+2026-06-06 00:59:05,064 - uvicorn.access - INFO - 127.0.0.1:58907 - "POST /carts/0/items/ HTTP/1.1" 500
+2026-06-06 00:59:05,065 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 67, in add_item_to_cart
+    raise exceptions.CartNotFoundError(cart_id=cart_id)
+exceptions.CartNotFoundError: Cart with ID 0 was not found.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 421, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)  # type: ignore[arg-type]
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 32, in cart_not_found_handler
+    return JSONResponse(
+           ^^^^^^^^^^^^
+NameError: name 'JSONResponse' is not defined
+2026-06-06 00:59:05,157 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:05,251 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:05,344 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts//items/ HTTP/1.1" 404
+2026-06-06 00:59:05,437 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:05,529 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:05,611 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1%20OR%201%3D1/items/ HTTP/1.1" 422
+2026-06-06 00:59:05,686 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:05,780 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:05,874 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/%3Cbody%20onload%3D1%3E/items/ HTTP/1.1" 422
+2026-06-06 00:59:05,968 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1%3B%20rm%20-rf%20//items/ HTTP/1.1" 404
+2026-06-06 00:59:06,062 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/../../..//items/ HTTP/1.1" 404
+2026-06-06 00:59:06,155 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:06,248 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:06,325 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts//items/ HTTP/1.1" 404
+2026-06-06 00:59:06,409 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:06,497 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:06,590 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:06,684 - cart_api - WARNING - Cart with ID 1 was not found.
+2026-06-06 00:59:06,685 - uvicorn.access - INFO - 127.0.0.1:58909 - "POST /carts/1/items/ HTTP/1.1" 500
+2026-06-06 00:59:06,685 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 70, in add_item_to_cart
+    raise exceptions.CartNotFoundError(cart_id=cart_id)
+exceptions.CartNotFoundError: Cart with ID 1 was not found.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 421, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)  # type: ignore[arg-type]
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 32, in cart_not_found_handler
+    return JSONResponse(
+           ^^^^^^^^^^^^
+NameError: name 'JSONResponse' is not defined
+2026-06-06 00:59:06,780 - cart_api - WARNING - Cart with ID 2147483647 was not found.
+2026-06-06 00:59:06,780 - uvicorn.access - INFO - 127.0.0.1:58911 - "POST /carts/2147483647/items/ HTTP/1.1" 500
+2026-06-06 00:59:06,780 - uvicorn.error - ERROR - Exception in ASGI application
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 120, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 674, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 330, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2518, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 1002, in run
+    result = context.run(func, *args)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 67, in add_item_to_cart
+    raise exceptions.CartNotFoundError(cart_id=cart_id)
+exceptions.CartNotFoundError: Cart with ID 2147483647 was not found.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 421, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\applications.py", line 1159, in __call__
+    await super().__call__(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\applications.py", line 90, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 680, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\fastapi\routing.py", line 134, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\muzam\OneDrive\Desktop\internship\venv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)  # type: ignore[arg-type]
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\muzam\OneDrive\Desktop\internship\app.py", line 32, in cart_not_found_handler
+    return JSONResponse(
+           ^^^^^^^^^^^^
+NameError: name 'JSONResponse' is not defined
+2026-06-06 00:59:06,856 - uvicorn.access - INFO - 127.0.0.1:58913 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 00:59:06,940 - cart_api - INFO - Successfully added item 10 to cart 1 at price 89.99
+2026-06-06 00:59:06,941 - uvicorn.access - INFO - 127.0.0.1:58913 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 00:59:07,034 - cart_api - INFO - Successfully added item 11 to cart 1 at price 89.99
+2026-06-06 00:59:07,036 - uvicorn.access - INFO - 127.0.0.1:58913 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 00:59:07,136 - uvicorn.access - INFO - 127.0.0.1:58913 - "POST /carts/%3Cscript%3E/items/ HTTP/1.1" 422
+2026-06-06 01:06:48,250 - uvicorn.error - WARNING - WatchFiles detected changes in 'app.py'. Reloading...
+2026-06-06 01:06:48,338 - uvicorn.error - INFO - Shutting down
+2026-06-06 01:06:48,446 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-06 01:06:48,447 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-06 01:06:48,447 - uvicorn.error - INFO - Finished server process [22236]
+2026-06-06 01:06:50,659 - uvicorn.error - INFO - Started server process [9568]
+2026-06-06 01:06:50,660 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-06 01:06:50,660 - uvicorn.error - INFO - Application startup complete.
+2026-06-06 01:08:22,011 - uvicorn.error - WARNING - WatchFiles detected changes in 'schemas.py'. Reloading...
+2026-06-06 01:08:22,041 - uvicorn.error - INFO - Shutting down
+2026-06-06 01:08:22,152 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-06 01:08:22,152 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-06 01:08:22,152 - uvicorn.error - INFO - Finished server process [9568]
+2026-06-06 01:08:24,262 - uvicorn.error - INFO - Started server process [13788]
+2026-06-06 01:08:24,262 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-06 01:08:24,262 - uvicorn.error - INFO - Application startup complete.
+2026-06-06 01:08:41,798 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:08:41,933 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:08:42,042 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:08:42,141 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:42,234 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:42,312 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:42,406 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:42,501 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:42,595 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/0/items/ HTTP/1.1" 404
+2026-06-06 01:08:42,709 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/999999/items/ HTTP/1.1" 404
+2026-06-06 01:08:42,797 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:08:42,877 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:42,970 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:43,063 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1.5/items/ HTTP/1.1" 422
+2026-06-06 01:08:43,149 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:08:43,220 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:43,298 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:43,392 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/hack/items/ HTTP/1.1" 422
+2026-06-06 01:08:43,488 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:43,579 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:43,657 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/true/items/ HTTP/1.1" 422
+2026-06-06 01:08:43,760 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:08:43,845 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:08:43,944 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/10/items/ HTTP/1.1" 200
+2026-06-06 01:08:44,028 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:44,122 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:44,185 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/0/items/ HTTP/1.1" 404
+2026-06-06 01:08:44,275 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:44,370 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:44,432 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts//items/ HTTP/1.1" 404
+2026-06-06 01:08:44,525 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:44,621 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:44,714 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1%20OR%201%3D1/items/ HTTP/1.1" 422
+2026-06-06 01:08:44,791 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:44,853 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:44,949 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/%3Cbody%20onload%3D1%3E/items/ HTTP/1.1" 422
+2026-06-06 01:08:45,043 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1%3B%20rm%20-rf%20//items/ HTTP/1.1" 404
+2026-06-06 01:08:45,136 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/../../..//items/ HTTP/1.1" 404
+2026-06-06 01:08:45,214 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:45,293 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:45,386 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts//items/ HTTP/1.1" 404
+2026-06-06 01:08:45,466 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:45,542 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:45,635 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:45,729 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:08:45,824 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/2147483647/items/ HTTP/1.1" 404
+2026-06-06 01:08:45,899 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:08:45,999 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:08:46,097 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:08:46,180 - uvicorn.access - INFO - 127.0.0.1:54307 - "POST /carts/%3Cscript%3E/items/ HTTP/1.1" 422
+2026-06-06 01:09:10,007 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:09:10,147 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:09:10,250 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:09:10,336 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:10,429 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:10,523 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:10,616 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:10,709 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:10,806 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/0/items/ HTTP/1.1" 404
+2026-06-06 01:09:10,901 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/999999/items/ HTTP/1.1" 404
+2026-06-06 01:09:10,992 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:09:11,086 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:11,182 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:11,288 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1.5/items/ HTTP/1.1" 422
+2026-06-06 01:09:11,379 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:09:11,474 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:11,566 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:11,681 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/hack/items/ HTTP/1.1" 422
+2026-06-06 01:09:11,801 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:11,893 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:11,939 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/true/items/ HTTP/1.1" 422
+2026-06-06 01:09:12,041 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:09:12,128 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:09:12,229 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/10/items/ HTTP/1.1" 200
+2026-06-06 01:09:12,314 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:12,376 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:12,440 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/0/items/ HTTP/1.1" 404
+2026-06-06 01:09:12,530 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:12,624 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:12,719 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts//items/ HTTP/1.1" 404
+2026-06-06 01:09:12,812 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:12,877 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:12,957 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1%20OR%201%3D1/items/ HTTP/1.1" 422
+2026-06-06 01:09:13,048 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:13,141 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:13,238 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/%3Cbody%20onload%3D1%3E/items/ HTTP/1.1" 422
+2026-06-06 01:09:13,328 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1%3B%20rm%20-rf%20//items/ HTTP/1.1" 404
+2026-06-06 01:09:13,407 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/../../..//items/ HTTP/1.1" 404
+2026-06-06 01:09:13,501 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:13,593 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:13,686 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts//items/ HTTP/1.1" 404
+2026-06-06 01:09:13,781 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:13,858 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:13,949 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:14,045 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:09:14,122 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/2147483647/items/ HTTP/1.1" 404
+2026-06-06 01:09:14,197 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:09:14,300 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:09:14,397 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:09:14,484 - uvicorn.access - INFO - 127.0.0.1:54313 - "POST /carts/%3Cscript%3E/items/ HTTP/1.1" 422
+2026-06-06 01:10:27,595 - uvicorn.error - INFO - Shutting down
+2026-06-06 01:10:27,703 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-06 01:10:27,704 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-06 01:10:27,704 - uvicorn.error - INFO - Finished server process [13788]
+2026-06-06 01:10:27,885 - uvicorn.error - INFO - Stopping reloader process [19680]
+2026-06-06 01:10:32,657 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-06-06 01:10:32,657 - uvicorn.error - INFO - Started reloader process [12732] using WatchFiles
+2026-06-06 01:10:34,062 - uvicorn.error - INFO - Started server process [12664]
+2026-06-06 01:10:34,062 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-06 01:10:34,062 - uvicorn.error - INFO - Application startup complete.
+2026-06-06 01:10:44,904 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:10:45,043 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:10:45,137 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:10:45,221 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:45,314 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:45,406 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:45,498 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:45,577 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:45,641 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/0/items/ HTTP/1.1" 404
+2026-06-06 01:10:45,739 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/999999/items/ HTTP/1.1" 404
+2026-06-06 01:10:45,830 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:10:45,920 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:46,012 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:46,104 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1.5/items/ HTTP/1.1" 422
+2026-06-06 01:10:46,210 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:10:46,293 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:46,385 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:46,463 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/hack/items/ HTTP/1.1" 422
+2026-06-06 01:10:46,555 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:46,632 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:46,726 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/true/items/ HTTP/1.1" 422
+2026-06-06 01:10:46,832 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:10:46,933 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:10:47,033 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/10/items/ HTTP/1.1" 200
+2026-06-06 01:10:47,118 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:47,212 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:47,307 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/0/items/ HTTP/1.1" 404
+2026-06-06 01:10:47,399 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:47,492 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:47,585 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts//items/ HTTP/1.1" 404
+2026-06-06 01:10:47,663 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:47,741 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:47,834 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1%20OR%201%3D1/items/ HTTP/1.1" 422
+2026-06-06 01:10:47,925 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:48,017 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:48,113 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/%3Cbody%20onload%3D1%3E/items/ HTTP/1.1" 422
+2026-06-06 01:10:48,206 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1%3B%20rm%20-rf%20//items/ HTTP/1.1" 404
+2026-06-06 01:10:48,298 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/../../..//items/ HTTP/1.1" 404
+2026-06-06 01:10:48,392 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:48,471 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:48,564 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts//items/ HTTP/1.1" 404
+2026-06-06 01:10:48,642 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:48,736 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:48,814 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:48,911 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:10:49,003 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/2147483647/items/ HTTP/1.1" 404
+2026-06-06 01:10:49,079 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:10:49,187 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:10:49,265 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:10:49,355 - uvicorn.access - INFO - 127.0.0.1:60787 - "POST /carts/%3Cscript%3E/items/ HTTP/1.1" 422
+2026-06-06 01:14:38,086 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:14:38,192 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:14:38,283 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:14:38,368 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:38,463 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:38,555 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:38,633 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:38,711 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:38,790 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/0/items/ HTTP/1.1" 404
+2026-06-06 01:14:38,884 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/999999/items/ HTTP/1.1" 404
+2026-06-06 01:14:38,977 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:14:39,069 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:39,148 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:39,241 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1.5/items/ HTTP/1.1" 422
+2026-06-06 01:14:39,348 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:14:39,427 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:39,504 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:39,597 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/hack/items/ HTTP/1.1" 422
+2026-06-06 01:14:39,674 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:39,753 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:39,844 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/true/items/ HTTP/1.1" 422
+2026-06-06 01:14:39,933 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:14:40,034 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:14:40,117 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/10/items/ HTTP/1.1" 200
+2026-06-06 01:14:40,219 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:40,309 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:40,404 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/0/items/ HTTP/1.1" 404
+2026-06-06 01:14:40,495 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:40,587 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:40,666 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts//items/ HTTP/1.1" 404
+2026-06-06 01:14:40,744 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:40,821 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:40,916 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1%20OR%201%3D1/items/ HTTP/1.1" 422
+2026-06-06 01:14:41,009 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:41,102 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:41,197 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/%3Cbody%20onload%3D1%3E/items/ HTTP/1.1" 422
+2026-06-06 01:14:41,289 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1%3B%20rm%20-rf%20//items/ HTTP/1.1" 404
+2026-06-06 01:14:41,384 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/../../..//items/ HTTP/1.1" 404
+2026-06-06 01:14:41,477 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:41,554 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:41,648 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts//items/ HTTP/1.1" 404
+2026-06-06 01:14:41,726 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:41,804 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:41,883 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:41,932 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 404
+2026-06-06 01:14:42,010 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/2147483647/items/ HTTP/1.1" 404
+2026-06-06 01:14:42,136 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 422
+2026-06-06 01:14:42,236 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:14:42,325 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/1/items/ HTTP/1.1" 200
+2026-06-06 01:14:42,409 - uvicorn.access - INFO - 127.0.0.1:56038 - "POST /carts/%3Cscript%3E/items/ HTTP/1.1" 422
+2026-06-06 01:29:08,744 - uvicorn.error - WARNING - WatchFiles detected changes in 'app.py'. Reloading...
+2026-06-06 01:29:08,748 - uvicorn.error - INFO - Shutting down
+2026-06-06 01:29:08,857 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-06 01:29:08,857 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-06 01:29:08,857 - uvicorn.error - INFO - Finished server process [12664]
+2026-06-06 01:29:10,810 - uvicorn.error - INFO - Started server process [23528]
+2026-06-06 01:29:10,810 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-06 01:29:10,812 - uvicorn.error - INFO - Application startup complete.
+2026-06-06 01:35:01,912 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/1 HTTP/1.1" 404
+2026-06-06 01:35:02,035 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/999999/items/1 HTTP/1.1" 404
+2026-06-06 01:35:02,127 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/999999 HTTP/1.1" 404
+2026-06-06 01:35:02,203 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/0/items/1 HTTP/1.1" 404
+2026-06-06 01:35:02,283 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/0 HTTP/1.1" 404
+2026-06-06 01:35:02,373 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/-1/items/1 HTTP/1.1" 404
+2026-06-06 01:35:02,452 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/-1 HTTP/1.1" 404
+2026-06-06 01:35:02,542 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1.5/items/1 HTTP/1.1" 422
+2026-06-06 01:35:02,636 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/1.5 HTTP/1.1" 422
+2026-06-06 01:35:02,720 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/hack/items/1 HTTP/1.1" 422
+2026-06-06 01:35:02,791 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/hack HTTP/1.1" 422
+2026-06-06 01:35:02,883 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/true/items/1 HTTP/1.1" 422
+2026-06-06 01:35:02,977 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/true HTTP/1.1" 422
+2026-06-06 01:35:03,070 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/false/items/1 HTTP/1.1" 422
+2026-06-06 01:35:03,162 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/false HTTP/1.1" 422
+2026-06-06 01:35:03,257 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1%20OR%201%3D1/items/1 HTTP/1.1" 422
+2026-06-06 01:35:03,348 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/1%20OR%201%3D1 HTTP/1.1" 422
+2026-06-06 01:35:03,443 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1%3B%20DROP%20TABLE%20carts%3B/items/1 HTTP/1.1" 422
+2026-06-06 01:35:03,521 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/1%3B%20DROP%20TABLE%20items%3B HTTP/1.1" 422
+2026-06-06 01:35:03,614 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/%3Cscript%3Ealert%281%29%3C/script%3E/items/1 HTTP/1.1" 404
+2026-06-06 01:35:03,725 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/%3Cscript%3Ealert%281%29%3C/script%3E HTTP/1.1" 404
+2026-06-06 01:35:03,833 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/../../../etc/passwd/items/1 HTTP/1.1" 404
+2026-06-06 01:35:03,926 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/../../../etc/passwd HTTP/1.1" 404
+2026-06-06 01:35:04,004 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1%3B%20rm%20-rf%20//items/1 HTTP/1.1" 404
+2026-06-06 01:35:04,081 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/1%3B%20rm%20-rf%20/ HTTP/1.1" 307
+2026-06-06 01:35:04,089 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/1%3B%20rm%20-rf%20 HTTP/1.1" 422
+2026-06-06 01:35:04,178 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/10/items/1 HTTP/1.1" 404
+2026-06-06 01:35:04,278 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/10 HTTP/1.1" 200
+2026-06-06 01:35:04,379 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1000000/items/1 HTTP/1.1" 404
+2026-06-06 01:35:04,471 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/1000000 HTTP/1.1" 404
+2026-06-06 01:35:04,564 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/2147483647/items/1 HTTP/1.1" 404
+2026-06-06 01:35:04,644 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/2147483647 HTTP/1.1" 404
+2026-06-06 01:35:04,734 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/2147483648/items/1 HTTP/1.1" 404
+2026-06-06 01:35:04,828 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/2147483648 HTTP/1.1" 404
+2026-06-06 01:35:04,904 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/0/items/1 HTTP/1.1" 404
+2026-06-06 01:35:04,999 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/0 HTTP/1.1" 404
+2026-06-06 01:35:05,091 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/%201%20/items/1 HTTP/1.1" 404
+2026-06-06 01:35:05,185 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/%201%20 HTTP/1.1" 404
+2026-06-06 01:35:05,260 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts//items/1 HTTP/1.1" 404
+2026-06-06 01:35:05,352 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/ HTTP/1.1" 405
+2026-06-06 01:35:05,448 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/%5B1%5D/items/1 HTTP/1.1" 422
+2026-06-06 01:35:05,541 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/%5B1%5D HTTP/1.1" 422
+2026-06-06 01:35:05,632 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/%7B%22id%22%3A1%7D/items/1 HTTP/1.1" 422
+2026-06-06 01:35:05,733 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/%7B%22id%22%3A1%7D HTTP/1.1" 422
+2026-06-06 01:35:05,856 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/u0000/items/1 HTTP/1.1" 404
+2026-06-06 01:35:05,947 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/1/u0000 HTTP/1.1" 404
+2026-06-06 01:35:06,032 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/%F0%9F%8C%9E/items/1 HTTP/1.1" 422
+2026-06-06 01:35:06,120 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1/items/%F0%9F%9A%80 HTTP/1.1" 422
+2026-06-06 01:35:06,215 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1.5/items/1.5 HTTP/1.1" 422
+2026-06-06 01:35:06,293 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/1%20OR%201%3D1/items/1%20OR%201%3D1 HTTP/1.1" 422
+2026-06-06 01:35:06,387 - uvicorn.access - INFO - 127.0.0.1:58897 - "DELETE /carts/%3Cscript%3E/items/9999999999999 HTTP/1.1" 422
+2026-06-06 01:38:10,336 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/1 HTTP/1.1" 404
+2026-06-06 01:38:10,472 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/999999/items/1 HTTP/1.1" 404
+2026-06-06 01:38:10,577 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/999999 HTTP/1.1" 404
+2026-06-06 01:38:10,679 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/0/items/1 HTTP/1.1" 404
+2026-06-06 01:38:10,775 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/0 HTTP/1.1" 404
+2026-06-06 01:38:10,851 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/-1/items/1 HTTP/1.1" 404
+2026-06-06 01:38:10,946 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/-1 HTTP/1.1" 404
+2026-06-06 01:38:11,022 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1.5/items/1 HTTP/1.1" 422
+2026-06-06 01:38:11,100 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/1.5 HTTP/1.1" 422
+2026-06-06 01:38:11,193 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/hack/items/1 HTTP/1.1" 422
+2026-06-06 01:38:11,285 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/hack HTTP/1.1" 422
+2026-06-06 01:38:11,378 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/true/items/1 HTTP/1.1" 422
+2026-06-06 01:38:11,457 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/true HTTP/1.1" 422
+2026-06-06 01:38:11,550 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/false/items/1 HTTP/1.1" 422
+2026-06-06 01:38:11,629 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/false HTTP/1.1" 422
+2026-06-06 01:38:11,707 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1%20OR%201%3D1/items/1 HTTP/1.1" 422
+2026-06-06 01:38:11,798 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/1%20OR%201%3D1 HTTP/1.1" 422
+2026-06-06 01:38:11,874 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1%3B%20DROP%20TABLE%20carts%3B/items/1 HTTP/1.1" 422
+2026-06-06 01:38:11,967 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/1%3B%20DROP%20TABLE%20items%3B HTTP/1.1" 422
+2026-06-06 01:38:12,059 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/%3Cscript%3Ealert%281%29%3C/script%3E/items/1 HTTP/1.1" 404
+2026-06-06 01:38:12,152 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/%3Cscript%3Ealert%281%29%3C/script%3E HTTP/1.1" 404
+2026-06-06 01:38:12,245 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/../../../etc/passwd/items/1 HTTP/1.1" 404
+2026-06-06 01:38:12,324 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/../../../etc/passwd HTTP/1.1" 404
+2026-06-06 01:38:12,390 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1%3B%20rm%20-rf%20//items/1 HTTP/1.1" 404
+2026-06-06 01:38:12,478 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/1%3B%20rm%20-rf%20/ HTTP/1.1" 307
+2026-06-06 01:38:12,482 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/1%3B%20rm%20-rf%20 HTTP/1.1" 422
+2026-06-06 01:38:12,575 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/10/items/1 HTTP/1.1" 404
+2026-06-06 01:38:12,668 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/10 HTTP/1.1" 404
+2026-06-06 01:38:12,759 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1000000/items/1 HTTP/1.1" 404
+2026-06-06 01:38:12,853 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/1000000 HTTP/1.1" 404
+2026-06-06 01:38:12,944 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/2147483647/items/1 HTTP/1.1" 404
+2026-06-06 01:38:13,038 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/2147483647 HTTP/1.1" 404
+2026-06-06 01:38:13,132 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/2147483648/items/1 HTTP/1.1" 404
+2026-06-06 01:38:13,212 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/2147483648 HTTP/1.1" 404
+2026-06-06 01:38:13,306 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/0/items/1 HTTP/1.1" 404
+2026-06-06 01:38:13,384 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/0 HTTP/1.1" 404
+2026-06-06 01:38:13,463 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/%201%20/items/1 HTTP/1.1" 404
+2026-06-06 01:38:13,556 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/%201%20 HTTP/1.1" 404
+2026-06-06 01:38:13,630 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts//items/1 HTTP/1.1" 404
+2026-06-06 01:38:13,724 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/ HTTP/1.1" 405
+2026-06-06 01:38:13,801 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/%5B1%5D/items/1 HTTP/1.1" 422
+2026-06-06 01:38:13,894 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/%5B1%5D HTTP/1.1" 422
+2026-06-06 01:38:13,987 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/%7B%22id%22%3A1%7D/items/1 HTTP/1.1" 422
+2026-06-06 01:38:14,080 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/%7B%22id%22%3A1%7D HTTP/1.1" 422
+2026-06-06 01:38:14,173 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/u0000/items/1 HTTP/1.1" 404
+2026-06-06 01:38:14,265 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/1/u0000 HTTP/1.1" 404
+2026-06-06 01:38:14,330 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/%F0%9F%8C%9E/items/1 HTTP/1.1" 422
+2026-06-06 01:38:14,424 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1/items/%F0%9F%9A%80 HTTP/1.1" 422
+2026-06-06 01:38:14,518 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1.5/items/1.5 HTTP/1.1" 422
+2026-06-06 01:38:14,613 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/1%20OR%201%3D1/items/1%20OR%201%3D1 HTTP/1.1" 422
+2026-06-06 01:38:14,708 - uvicorn.access - INFO - 127.0.0.1:62046 - "DELETE /carts/%3Cscript%3E/items/9999999999999 HTTP/1.1" 422
+2026-06-08 09:47:26,915 - uvicorn.error - INFO - Shutting down
+2026-06-08 09:47:27,052 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-08 09:47:27,064 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-08 09:47:27,065 - uvicorn.error - INFO - Finished server process [23528]
+2026-06-08 09:47:27,597 - uvicorn.error - INFO - Stopping reloader process [12732]
+2026-06-08 09:47:39,876 - uvicorn.error - INFO - Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-06-08 09:47:39,876 - uvicorn.error - INFO - Started reloader process [23432] using WatchFiles
+2026-06-08 09:47:41,845 - uvicorn.error - INFO - Started server process [23200]
+2026-06-08 09:47:41,846 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-08 09:47:41,846 - uvicorn.error - INFO - Application startup complete.
+2026-06-08 09:54:44,423 - uvicorn.error - WARNING - WatchFiles detected changes in 'app.py'. Reloading...
+2026-06-08 09:54:44,430 - uvicorn.error - INFO - Shutting down
+2026-06-08 09:54:44,540 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-08 09:54:44,541 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-08 09:54:44,541 - uvicorn.error - INFO - Finished server process [23200]
+2026-06-08 09:54:46,841 - uvicorn.error - INFO - Started server process [26084]
+2026-06-08 09:54:46,842 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-08 09:54:46,842 - uvicorn.error - INFO - Application startup complete.
+2026-06-08 09:56:55,119 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1/checkout HTTP/1.1" 200
+2026-06-08 09:56:55,256 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1/checkout HTTP/1.1" 400
+2026-06-08 09:56:55,348 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/999999/checkout HTTP/1.1" 404
+2026-06-08 09:56:55,441 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/0/checkout HTTP/1.1" 404
+2026-06-08 09:56:55,534 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/-1/checkout HTTP/1.1" 404
+2026-06-08 09:56:55,655 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1.5/checkout HTTP/1.1" 422
+2026-06-08 09:56:55,752 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/hack/checkout HTTP/1.1" 422
+2026-06-08 09:56:55,853 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/true/checkout HTTP/1.1" 422
+2026-06-08 09:56:55,953 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/false/checkout HTTP/1.1" 422
+2026-06-08 09:56:56,048 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1%20OR%201%3D1/checkout HTTP/1.1" 422
+2026-06-08 09:56:56,142 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1%3B%20DROP%20TABLE%20carts%3B/checkout HTTP/1.1" 422
+2026-06-08 09:56:56,216 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%22%20OR%20%22%22%3D%22/checkout HTTP/1.1" 422
+2026-06-08 09:56:56,295 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%3Cscript%3Ealert%281%29%3C/script%3E/checkout HTTP/1.1" 404
+2026-06-08 09:56:56,406 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E/checkout HTTP/1.1" 422
+2026-06-08 09:56:56,498 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%3Cbody%20onload%3Dalert%281%29%3E/checkout HTTP/1.1" 422
+2026-06-08 09:56:56,590 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/../../../etc/passwd/checkout HTTP/1.1" 404
+2026-06-08 09:56:56,683 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/../../..//checkout HTTP/1.1" 404
+2026-06-08 09:56:56,775 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1%3B%20rm%20-rf%20//checkout HTTP/1.1" 404
+2026-06-08 09:56:56,889 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/10/checkout HTTP/1.1" 200
+2026-06-08 09:56:56,977 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1000000/checkout HTTP/1.1" 404
+2026-06-08 09:56:57,072 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/2147483647/checkout HTTP/1.1" 404
+2026-06-08 09:56:57,165 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/2147483648/checkout HTTP/1.1" 404
+2026-06-08 09:56:57,244 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/9999999999999/checkout HTTP/1.1" 404
+2026-06-08 09:56:57,338 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/0/checkout HTTP/1.1" 404
+2026-06-08 09:56:57,432 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%201%20/checkout HTTP/1.1" 400
+2026-06-08 09:56:57,523 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts//checkout HTTP/1.1" 404
+2026-06-08 09:56:57,618 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%5B1%5D/checkout HTTP/1.1" 422
+2026-06-08 09:56:57,712 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%7B%22id%22%3A1%7D/checkout HTTP/1.1" 422
+2026-06-08 09:56:57,790 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1/u0000/checkout HTTP/1.1" 404
+2026-06-08 09:56:57,870 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%F0%9F%8C%9E/checkout HTTP/1.1" 422
+2026-06-08 09:56:57,965 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%21%40 HTTP/1.1" 405
+2026-06-08 09:56:58,069 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%E4%BC%98%E6%83%A0%E5%88%B8%E6%B5%8B%E8%AF%95/checkout HTTP/1.1" 422
+2026-06-08 09:56:58,168 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%D9%82%D8%B3%D9%8A%D9%85%D8%A9/checkout HTTP/1.1" 422
+2026-06-08 09:56:58,261 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/null/checkout HTTP/1.1" 422
+2026-06-08 09:56:58,357 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/undefined/checkout HTTP/1.1" 422
+2026-06-08 09:56:58,433 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%7B%7B7%2A7%7D%7D/checkout HTTP/1.1" 422
+2026-06-08 09:56:58,510 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%7B%22%24gt%22%3A%20%22%22%7D/checkout HTTP/1.1" 422
+2026-06-08 09:56:58,627 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts//t1/checkout HTTP/1.1" 404
+2026-06-08 09:56:58,711 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts//n1/checkout HTTP/1.1" 404
+2026-06-08 09:56:58,775 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1%2B1/checkout HTTP/1.1" 422
+2026-06-08 09:56:58,871 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1/checkout HTTP/1.1" 400
+2026-06-08 09:56:58,963 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1%20AND%20SLEEP%285%29/checkout HTTP/1.1" 422
+2026-06-08 09:56:59,040 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/admin%2A%29/checkout HTTP/1.1" 422
+2026-06-08 09:56:59,119 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%0D%0A/checkout HTTP/1.1" 422
+2026-06-08 09:56:59,210 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%3Ccart%3E1%3C/cart%3E/checkout HTTP/1.1" 404
+2026-06-08 09:56:59,291 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1/checkout HTTP/1.1" 400
+2026-06-08 09:56:59,383 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1a2b3c/checkout HTTP/1.1" 422
+2026-06-08 09:56:59,461 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/123e4567-e89b-12d3-a456-426614174000/checkout HTTP/1.1" 422
+2026-06-08 09:56:59,553 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/1/../1/checkout HTTP/1.1" 404
+2026-06-08 09:56:59,630 - uvicorn.access - INFO - 127.0.0.1:53018 - "POST /carts/%3Cscript%3EDROP%20TABLE%20carts%3B%3C/script%3E/checkout HTTP/1.1" 404
+2026-06-08 10:01:34,340 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1/checkout HTTP/1.1" 400
+2026-06-08 10:01:34,513 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1/checkout HTTP/1.1" 400
+2026-06-08 10:01:34,622 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/999999/checkout HTTP/1.1" 404
+2026-06-08 10:01:34,713 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/0/checkout HTTP/1.1" 404
+2026-06-08 10:01:34,817 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/-1/checkout HTTP/1.1" 404
+2026-06-08 10:01:34,913 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1.5/checkout HTTP/1.1" 422
+2026-06-08 10:01:35,024 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/hack/checkout HTTP/1.1" 422
+2026-06-08 10:01:35,115 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/true/checkout HTTP/1.1" 422
+2026-06-08 10:01:35,207 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/false/checkout HTTP/1.1" 422
+2026-06-08 10:01:35,316 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1%20OR%201%3D1/checkout HTTP/1.1" 422
+2026-06-08 10:01:35,408 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1%3B%20DROP%20TABLE%20carts%3B/checkout HTTP/1.1" 422
+2026-06-08 10:01:35,502 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%22%20OR%20%22%22%3D%22/checkout HTTP/1.1" 422
+2026-06-08 10:01:35,593 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%3Cscript%3Ealert%281%29%3C/script%3E/checkout HTTP/1.1" 404
+2026-06-08 10:01:35,673 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E/checkout HTTP/1.1" 422
+2026-06-08 10:01:35,766 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%3Cbody%20onload%3Dalert%281%29%3E/checkout HTTP/1.1" 422
+2026-06-08 10:01:35,858 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/../../../etc/passwd/checkout HTTP/1.1" 404
+2026-06-08 10:01:35,952 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/../../..//checkout HTTP/1.1" 404
+2026-06-08 10:01:36,032 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1%3B%20rm%20-rf%20//checkout HTTP/1.1" 404
+2026-06-08 10:01:36,130 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/10/checkout HTTP/1.1" 400
+2026-06-08 10:01:36,206 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1000000/checkout HTTP/1.1" 404
+2026-06-08 10:01:36,284 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/2147483647/checkout HTTP/1.1" 404
+2026-06-08 10:01:36,377 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/2147483648/checkout HTTP/1.1" 404
+2026-06-08 10:01:36,467 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/9999999999999/checkout HTTP/1.1" 404
+2026-06-08 10:01:36,564 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/0/checkout HTTP/1.1" 404
+2026-06-08 10:01:36,658 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%201%20/checkout HTTP/1.1" 400
+2026-06-08 10:01:36,731 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts//checkout HTTP/1.1" 404
+2026-06-08 10:01:36,795 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%5B1%5D/checkout HTTP/1.1" 422
+2026-06-08 10:01:36,889 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%7B%22id%22%3A1%7D/checkout HTTP/1.1" 422
+2026-06-08 10:01:36,982 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1/u0000/checkout HTTP/1.1" 404
+2026-06-08 10:01:37,077 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%F0%9F%8C%9E/checkout HTTP/1.1" 422
+2026-06-08 10:01:37,171 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%21%40 HTTP/1.1" 405
+2026-06-08 10:01:37,265 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%E4%BC%98%E6%83%A0%E5%88%B8%E6%B5%8B%E8%AF%95/checkout HTTP/1.1" 422
+2026-06-08 10:01:37,360 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%D9%82%D8%B3%D9%8A%D9%85%D8%A9/checkout HTTP/1.1" 422
+2026-06-08 10:01:37,457 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/null/checkout HTTP/1.1" 422
+2026-06-08 10:01:37,547 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/undefined/checkout HTTP/1.1" 422
+2026-06-08 10:01:37,642 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%7B%7B7%2A7%7D%7D/checkout HTTP/1.1" 422
+2026-06-08 10:01:37,737 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%7B%22%24gt%22%3A%20%22%22%7D/checkout HTTP/1.1" 422
+2026-06-08 10:01:37,829 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts//t1/checkout HTTP/1.1" 404
+2026-06-08 10:01:37,892 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts//n1/checkout HTTP/1.1" 404
+2026-06-08 10:01:37,985 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1%2B1/checkout HTTP/1.1" 422
+2026-06-08 10:01:38,064 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1/checkout HTTP/1.1" 400
+2026-06-08 10:01:38,155 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1%20AND%20SLEEP%285%29/checkout HTTP/1.1" 422
+2026-06-08 10:01:38,231 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/admin%2A%29/checkout HTTP/1.1" 422
+2026-06-08 10:01:38,310 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%0D%0A/checkout HTTP/1.1" 422
+2026-06-08 10:01:38,386 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%3Ccart%3E1%3C/cart%3E/checkout HTTP/1.1" 404
+2026-06-08 10:01:38,481 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1/checkout HTTP/1.1" 400
+2026-06-08 10:01:38,560 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1a2b3c/checkout HTTP/1.1" 422
+2026-06-08 10:01:38,652 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/123e4567-e89b-12d3-a456-426614174000/checkout HTTP/1.1" 422
+2026-06-08 10:01:38,744 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/1/../1/checkout HTTP/1.1" 404
+2026-06-08 10:01:38,838 - uvicorn.access - INFO - 127.0.0.1:60473 - "POST /carts/%3Cscript%3EDROP%20TABLE%20carts%3B%3C/script%3E/checkout HTTP/1.1" 404
+2026-06-08 10:07:27,890 - uvicorn.access - INFO - 127.0.0.1:63442 - "DELETE /carts/%7B%7Bcart_id%7D%7D HTTP/1.1" 422
+2026-06-08 10:09:45,842 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/11 HTTP/1.1" 200
+2026-06-08 10:09:45,972 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/11 HTTP/1.1" 404
+2026-06-08 10:09:46,057 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/999999 HTTP/1.1" 404
+2026-06-08 10:09:46,151 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/0 HTTP/1.1" 404
+2026-06-08 10:09:46,245 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/-1 HTTP/1.1" 404
+2026-06-08 10:09:46,338 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/2147483647 HTTP/1.1" 404
+2026-06-08 10:09:46,431 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/2147483648 HTTP/1.1" 404
+2026-06-08 10:09:46,540 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/9999999999999 HTTP/1.1" 404
+2026-06-08 10:09:46,617 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1.5 HTTP/1.1" 422
+2026-06-08 10:09:46,697 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/hack HTTP/1.1" 422
+2026-06-08 10:09:46,790 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/true HTTP/1.1" 422
+2026-06-08 10:09:46,886 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/false HTTP/1.1" 422
+2026-06-08 10:09:46,979 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%5B1%5D HTTP/1.1" 422
+2026-06-08 10:09:47,073 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%7B%22id%22%3A1%7D HTTP/1.1" 422
+2026-06-08 10:09:47,166 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/null HTTP/1.1" 422
+2026-06-08 10:09:47,256 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/undefined HTTP/1.1" 422
+2026-06-08 10:09:47,350 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1%20OR%201%3D1 HTTP/1.1" 422
+2026-06-08 10:09:47,443 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1%3B%20DROP%20TABLE%20carts%3B HTTP/1.1" 422
+2026-06-08 10:09:47,524 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%22%20OR%20%22%22%3D%22 HTTP/1.1" 422
+2026-06-08 10:09:47,601 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%3Cscript%3Ealert%281%29%3C/script%3E HTTP/1.1" 404
+2026-06-08 10:09:47,697 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E HTTP/1.1" 422
+2026-06-08 10:09:47,786 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1%3B%20rm%20-rf%20/ HTTP/1.1" 307
+2026-06-08 10:09:47,790 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1%3B%20rm%20-rf%20 HTTP/1.1" 422
+2026-06-08 10:09:47,913 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/../../../etc/passwd HTTP/1.1" 404
+2026-06-08 10:09:47,976 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/../../ HTTP/1.1" 404
+2026-06-08 10:09:48,072 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%7B%7B7%2A7%7D%7D HTTP/1.1" 422
+2026-06-08 10:09:48,150 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/ HTTP/1.1" 405
+2026-06-08 10:09:48,271 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%201%20 HTTP/1.1" 200
+2026-06-08 10:09:48,341 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/100 HTTP/1.1" 404
+2026-06-08 10:09:48,431 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/0 HTTP/1.1" 404
+2026-06-08 10:09:48,524 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%F0%9F%8C%9E HTTP/1.1" 422
+2026-06-08 10:09:48,602 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%21%40 HTTP/1.1" 422
+2026-06-08 10:09:48,696 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%E5%88%A0%E9%99%A4 HTTP/1.1" 422
+2026-06-08 10:09:48,791 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%D8%B9%D8%B1%D8%A8%D8%A9 HTTP/1.1" 422
+2026-06-08 10:09:48,869 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts//t1 HTTP/1.1" 404
+2026-06-08 10:09:48,962 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts//n1 HTTP/1.1" 404
+2026-06-08 10:09:49,055 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1%2B1 HTTP/1.1" 422
+2026-06-08 10:09:49,167 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/2 HTTP/1.1" 200
+2026-06-08 10:09:49,259 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1 HTTP/1.1" 404
+2026-06-08 10:09:49,351 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1/u0000 HTTP/1.1" 404
+2026-06-08 10:09:49,446 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1%20AND%20SLEEP%285%29 HTTP/1.1" 422
+2026-06-08 10:09:49,523 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/admin%2A%29 HTTP/1.1" 422
+2026-06-08 10:09:49,602 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%0D%0A HTTP/1.1" 422
+2026-06-08 10:09:49,694 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%3Ccart%3E1%3C/cart%3E HTTP/1.1" 404
+2026-06-08 10:09:49,774 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/123e4567-e89b-12d3-a456-426614174000 HTTP/1.1" 422
+2026-06-08 10:09:49,884 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1a2b HTTP/1.1" 422
+2026-06-08 10:09:49,947 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1/../1 HTTP/1.1" 404
+2026-06-08 10:09:50,041 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%7B%22%24gt%22%3A%22%22%7D HTTP/1.1" 422
+2026-06-08 10:09:50,135 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/0.5 HTTP/1.1" 422
+2026-06-08 10:09:50,215 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/1000000 HTTP/1.1" 404
+2026-06-08 10:09:50,303 - uvicorn.access - INFO - 127.0.0.1:63480 - "DELETE /carts/%3Cscript%3EDROP%20TABLE%3B%3C/script%3E HTTP/1.1" 404
+2026-06-08 10:11:20,265 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/11 HTTP/1.1" 404
+2026-06-08 10:11:20,393 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/11 HTTP/1.1" 404
+2026-06-08 10:11:20,486 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/999999 HTTP/1.1" 404
+2026-06-08 10:11:20,581 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/0 HTTP/1.1" 404
+2026-06-08 10:11:20,688 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/-1 HTTP/1.1" 404
+2026-06-08 10:11:20,817 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/2147483647 HTTP/1.1" 404
+2026-06-08 10:11:20,908 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/2147483648 HTTP/1.1" 404
+2026-06-08 10:11:21,014 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/9999999999999 HTTP/1.1" 404
+2026-06-08 10:11:21,111 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1.5 HTTP/1.1" 422
+2026-06-08 10:11:21,206 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/hack HTTP/1.1" 422
+2026-06-08 10:11:21,301 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/true HTTP/1.1" 422
+2026-06-08 10:11:21,392 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/false HTTP/1.1" 422
+2026-06-08 10:11:21,486 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%5B1%5D HTTP/1.1" 422
+2026-06-08 10:11:21,565 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%7B%22id%22%3A1%7D HTTP/1.1" 422
+2026-06-08 10:11:21,658 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/null HTTP/1.1" 422
+2026-06-08 10:11:21,737 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/undefined HTTP/1.1" 422
+2026-06-08 10:11:21,830 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1%20OR%201%3D1 HTTP/1.1" 422
+2026-06-08 10:11:21,921 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1%3B%20DROP%20TABLE%20carts%3B HTTP/1.1" 422
+2026-06-08 10:11:22,017 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%22%20OR%20%22%22%3D%22 HTTP/1.1" 422
+2026-06-08 10:11:22,106 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%3Cscript%3Ealert%281%29%3C/script%3E HTTP/1.1" 404
+2026-06-08 10:11:22,171 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E HTTP/1.1" 422
+2026-06-08 10:11:22,262 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1%3B%20rm%20-rf%20/ HTTP/1.1" 307
+2026-06-08 10:11:22,281 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1%3B%20rm%20-rf%20 HTTP/1.1" 422
+2026-06-08 10:11:22,372 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/../../../etc/passwd HTTP/1.1" 404
+2026-06-08 10:11:22,450 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/../../ HTTP/1.1" 404
+2026-06-08 10:11:22,545 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%7B%7B7%2A7%7D%7D HTTP/1.1" 422
+2026-06-08 10:11:22,637 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/ HTTP/1.1" 405
+2026-06-08 10:11:22,733 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%209998%20 HTTP/1.1" 404
+2026-06-08 10:11:22,823 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/100 HTTP/1.1" 404
+2026-06-08 10:11:22,917 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/0 HTTP/1.1" 404
+2026-06-08 10:11:23,008 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%F0%9F%8C%9E HTTP/1.1" 422
+2026-06-08 10:11:23,098 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%21%40 HTTP/1.1" 422
+2026-06-08 10:11:23,191 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%E5%88%A0%E9%99%A4 HTTP/1.1" 422
+2026-06-08 10:11:23,270 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%D8%B9%D8%B1%D8%A8%D8%A9 HTTP/1.1" 422
+2026-06-08 10:11:23,363 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts//t1 HTTP/1.1" 404
+2026-06-08 10:11:23,441 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts//n1 HTTP/1.1" 404
+2026-06-08 10:11:23,535 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1%2B1 HTTP/1.1" 422
+2026-06-08 10:11:23,616 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/9999 HTTP/1.1" 404
+2026-06-08 10:11:23,708 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1 HTTP/1.1" 404
+2026-06-08 10:11:23,784 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1/u0000 HTTP/1.1" 404
+2026-06-08 10:11:23,878 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1%20AND%20SLEEP%285%29 HTTP/1.1" 422
+2026-06-08 10:11:23,972 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/admin%2A%29 HTTP/1.1" 422
+2026-06-08 10:11:24,051 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%0D%0A HTTP/1.1" 422
+2026-06-08 10:11:24,144 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%3Ccart%3E1%3C/cart%3E HTTP/1.1" 404
+2026-06-08 10:11:24,237 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/123e4567-e89b-12d3-a456-426614174000 HTTP/1.1" 422
+2026-06-08 10:11:24,333 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1a2b HTTP/1.1" 422
+2026-06-08 10:11:24,408 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1/../1 HTTP/1.1" 404
+2026-06-08 10:11:24,489 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%7B%22%24gt%22%3A%22%22%7D HTTP/1.1" 422
+2026-06-08 10:11:24,570 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/0.5 HTTP/1.1" 422
+2026-06-08 10:11:24,663 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/1000000 HTTP/1.1" 404
+2026-06-08 10:11:24,752 - uvicorn.access - INFO - 127.0.0.1:63943 - "DELETE /carts/%3Cscript%3EDROP%20TABLE%3B%3C/script%3E HTTP/1.1" 404

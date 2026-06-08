@@ -1,0 +1,51 @@
+test_description,cart_id,expected_status
+1_Happy_Path_Standard,1,200
+2_State_Machine_Idempotency,1,400
+3_Failure_Cart_Not_Found,999999,404
+4_Failure_Cart_Zero,0,404
+5_Failure_Cart_Negative,-1,404
+6_TypeHack_Cart_Float,1.5,422
+7_TypeHack_Cart_String,hack,422
+8_TypeHack_Cart_BooleanTrue,true,422
+9_TypeHack_Cart_BooleanFalse,false,422
+10_Security_SQLi_1,"1 OR 1=1",422
+11_Security_SQLi_2,"1; DROP TABLE carts;",422
+12_Security_SQLi_3,""" OR """"=""",422
+13_Security_XSS_Basic,"<script>alert(1)</script>",404
+14_Security_XSS_Image,"<img src=x onerror=alert(1)>",422
+15_Security_XSS_Body,"<body onload=alert(1)>",422
+16_Security_PathTraversal,../../../etc/passwd,404
+17_Security_PathTraversal_Double,..%2f..%2f..%2f,404
+18_Security_CommandInjection,"1; rm -rf /",404
+19_TypeHack_Cart_Scientific,1e1,200
+20_TypeHack_Cart_Scientific_Large,1e6,404
+21_Boundary_Cart_Max_Int,2147483647,404
+22_Boundary_Cart_Overflow,2147483648,404
+23_Boundary_Cart_Massive,9999999999999,404
+24_TypeHack_Cart_Hex,0x1A,404
+25_Format_Cart_Whitespace," 1 ",400
+26_Format_Cart_EmptyString,"",404
+27_TypeHack_Cart_Array,"[1]",422
+28_TypeHack_Cart_Object,"{""id"":1}",422
+29_Security_NullByte,1\u0000,404
+30_Format_Emoji_Cart,🌞,422
+31_Format_SpecialChars,!@#$%,405
+32_Format_ChineseChars,优惠券测试,422
+33_Format_ArabicChars,قسيمة,422
+34_TypeHack_JSON_Null,null,422
+35_TypeHack_JSON_Undefined,undefined,422
+36_Security_Template_Injection,{{7*7}},422
+37_Security_NoSQL_Injection,"{""$gt"": """"}",422
+38_Format_Tab_Character,\t1,404
+39_Format_Newline_Character,\n1,404
+40_TypeHack_Cart_Math,1+1,422
+41_TypeHack_Cart_PaddedZero,000001,400
+42_Security_Blind_SQLi,1 AND SLEEP(5),422
+43_Security_LDAP_Injection,admin*),422
+44_Security_CRLF_Injection,%0d%0a,422
+45_Security_XML_Injection,<cart>1</cart>,404
+46_Format_URL_Encoded,%31,400
+47_TypeHack_Mixed_AlphaNum,1a2b3c,422
+48_TypeHack_UUID,123e4567-e89b-12d3-a456-426614174000,422
+49_Security_Bypass_Attempt,1/../1,404
+50_The_Final_Boss,<script>DROP TABLE carts;</script>,404

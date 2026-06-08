@@ -1,0 +1,51 @@
+test_description,cart_id,product_id,quantity,expected_status
+1_Happy_Path_Standard,1,1,1,200
+2_Happy_Path_Multiple_Items,1,1,5,200
+3_Boundary_Quantity_Max,1,1,1000,200
+4_Failure_Quantity_Zero,1,1,0,422
+5_Failure_Quantity_Negative,1,1,-5,422
+6_Failure_Quantity_Overflow,1,1,1001,422
+7_Failure_Product_Zero,1,0,1,422
+8_Failure_Product_Negative,1,-1,1,422
+9_Failure_Cart_Zero,0,1,1,404
+10_Failure_Cart_Not_Found,999999,1,1,404
+11_Failure_Product_Not_Found,1,999999,1,404
+12_TypeHack_Quantity_Float,1,1,1.5,422
+13_TypeHack_Product_Float,1,1.5,1,422
+14_TypeHack_Cart_Float,1.5,1,1,422
+15_TypeHack_Quantity_String,1,1,5,200
+16_TypeHack_Quantity_Text,1,1,"five",422
+17_TypeHack_Product_Text,1,"one",1,422
+18_TypeHack_Cart_Text,hack,1,1,422
+19_TypeHack_Quantity_Boolean,1,1,true,422
+20_TypeHack_Product_Boolean,1,true,1,422
+21_TypeHack_Cart_Boolean,true,1,1,422
+22_TypeHack_Quantity_Scientific,1,1,1e3,200
+23_TypeHack_Product_Scientific,1,1e1,1,404
+24_TypeHack_Cart_Scientific,1e1,1,1,200
+25_TypeHack_Quantity_Hex,1,1,0x0A,422
+26_TypeHack_Product_Hex,1,0x0A,1,422
+27_TypeHack_Cart_Hex,0x0A,1,1,404
+28_TypeHack_Quantity_EmptyString,1,1,"",422
+29_TypeHack_Product_EmptyString,1,"",1,422
+30_TypeHack_Cart_EmptyString,"",1,1,404
+31_Security_SQLi_Quantity,1,1,"1 OR 1=1",422
+32_Security_SQLi_Product,1,"1; DROP TABLE items;",1,422
+33_Security_SQLi_Cart,"1 OR 1=1",1,1,422
+34_Security_XSS_Quantity,1,1,"<script>",422
+35_Security_XSS_Product,1,"<img src=x>",1,422
+36_Security_XSS_Cart,"<body onload=1>",1,1,422
+37_Security_Command_Cart,"1; rm -rf /",1,1,404
+38_Security_Path_Traversal_Cart,../../../,1,1,404
+39_Format_Missing_Quantity,1,1,,422
+40_Format_Missing_Product,1,,1,422
+41_Format_Missing_Cart,,1,1,404
+42_TypeHack_Array_Quantity,1,1,"[1]",422
+43_TypeHack_Object_Quantity,1,1,"{""q"":1}",422
+44_TypeHack_Array_Product,1,"[1]",1,422
+45_Boundary_Product_Max_Int,1,2147483647,1,404
+46_Boundary_Cart_Max_Int,2147483647,1,1,404
+47_Boundary_Quantity_Huge,1,1,999999999,422
+48_Format_Whitespace_Quantity,1,1," 1 ",200
+49_Format_Whitespace_Product,1," 1 ",1,200
+50_The_Kitchen_Sink,"<script>",-5,"[1]",422

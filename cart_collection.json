@@ -1,0 +1,251 @@
+{
+  "info": {
+    "_postman_id": "57cc80ea-ba31-4170-85fb-f09e6f3079c9",
+    "name": "FastAPI Cart API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55518917",
+    "_collection_link": "https://go.postman.co/collection/55518917-57cc80ea-ba31-4170-85fb-f09e6f3079c9?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Create Cart",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "// Get the expected status code from our CSV file\r",
+              "var expectedStatus = pm.iterationData.get(\"expected_status\");\r",
+              "var testName = pm.iterationData.get(\"test_description\");\r",
+              "\r",
+              "// Tell Postman to verify that FastAPI returned the exact status code we predicted\r",
+              "pm.test(testName + \": Expected status \" + expectedStatus, function () {\r",
+              "    pm.response.to.have.status(expectedStatus);\r",
+              "});\r",
+              "\r",
+              "// If it's a 200 (Success), verify it actually created a cart with an ID\r",
+              "if (expectedStatus === 200) {\r",
+              "    pm.test(testName + \": Cart ID was generated\", function () {\r",
+              "        var jsonData = pm.response.json();\r",
+              "        pm.expect(jsonData).to.have.property('id');\r",
+              "    });\r",
+              "}"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"coupon\": \"{{coupon}}\",\r\n  \"user_id\": {{user_id}}\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/carts/",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "carts",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add Item to Cart",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var expectedStatus = pm.iterationData.get(\"expected_status\");\r",
+              "var testName = pm.iterationData.get(\"test_description\");\r",
+              "\r",
+              "pm.test(testName + \": Expected status \" + expectedStatus, function () {\r",
+              "    pm.response.to.have.status(expectedStatus);\r",
+              "});\r",
+              "\r",
+              "// If it's a 200 OK, prove that the server successfully fetched the price\r",
+              "if (expectedStatus === 200) {\r",
+              "    pm.test(testName + \": Server securely fetched price_at_addition\", function () {\r",
+              "        var jsonData = pm.response.json();\r",
+              "        pm.expect(jsonData).to.have.property('price_at_addition');\r",
+              "        pm.expect(jsonData.price_at_addition).to.be.a('number');\r",
+              "    });\r",
+              "}"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"product_id\": {{product_id}},\r\n  \"quantity\": {{quantity}}\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/carts/{{cart_id}}/items/",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "carts",
+            "{{cart_id}}",
+            "items",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Remove Item from Cart",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var expectedStatus = pm.iterationData.get(\"expected_status\");\r",
+              "var testName = pm.iterationData.get(\"test_description\");\r",
+              "\r",
+              "pm.test(testName + \": Expected status \" + expectedStatus, function () {\r",
+              "    pm.response.to.have.status(expectedStatus);\r",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/carts/{{cart_id}}/items/{{item_id}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "carts",
+            "{{cart_id}}",
+            "items",
+            "{{item_id}}"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Checkout Cart",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var expectedStatus = pm.iterationData.get(\"expected_status\");\r",
+              "var testName = pm.iterationData.get(\"test_description\");\r",
+              "\r",
+              "pm.test(testName + \": Expected status \" + expectedStatus, function () {\r",
+              "    pm.response.to.have.status(expectedStatus);\r",
+              "});\r",
+              "\r",
+              "// If the checkout succeeds, verify the database locked the state to \"completed\"\r",
+              "if (expectedStatus === 200) {\r",
+              "    pm.test(testName + \": State Machine locked cart to 'completed'\", function () {\r",
+              "        var jsonData = pm.response.json();\r",
+              "        pm.expect(jsonData).to.have.property('status');\r",
+              "        pm.expect(jsonData.status).to.eql('completed');\r",
+              "    });\r",
+              "}"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/carts/{{cart_id}}/checkout",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "carts",
+            "{{cart_id}}",
+            "checkout"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete Cart",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var expectedStatus = pm.iterationData.get(\"expected_status\");\r",
+              "var testName = pm.iterationData.get(\"test_description\");\r",
+              "\r",
+              "pm.test(testName + \": Expected status \" + expectedStatus, function () {\r",
+              "    pm.response.to.have.status(expectedStatus);\r",
+              "});\r",
+              "\r",
+              "// If it's a 200 OK, verify the custom success message fired\r",
+              "if (expectedStatus === 200) {\r",
+              "    pm.test(testName + \": Verified deletion message\", function () {\r",
+              "        var jsonData = pm.response.json();\r",
+              "        pm.expect(jsonData).to.have.property('detail');\r",
+              "        pm.expect(jsonData.detail).to.include('permanently deleted');\r",
+              "    });\r",
+              "}"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/carts/{{cart_id}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "carts",
+            "{{cart_id}}"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+coupon,user_id,expected_status
+SUMMER10,1,200
+SUMMER10,-5,422
+A,1,422
+TOOLONGCOUPONNAME,1,422

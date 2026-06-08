@@ -1,0 +1,51 @@
+test_description,coupon,user_id,expected_status
+1_Happy_Path_Standard,SUMMER10,1,200
+2_Happy_Path_No_Coupon,,50,200
+3_Boundary_UserId_Lowest_Valid,WINTER20,1,200
+4_Boundary_UserId_Highest_Valid,SAVE50,2147483647,200
+5_Boundary_Coupon_Min_Length,ABC,10,200
+6_Boundary_Coupon_Max_Length,TWENTYCHARACTERLONG!,10,200
+7_Failure_UserId_Zero,SUMMER10,0,422
+8_Failure_UserId_Negative,SUMMER10,-1,422
+9_Failure_UserId_Massive_Negative,SUMMER10,-999999999,422
+10_Failure_UserId_Overflow,SUMMER10,2147483648,422
+11_Failure_Coupon_Too_Short,AB,10,422
+12_Failure_Coupon_Too_Long,THISCOUPONISWAYTOOLONG,10,422
+13_Failure_Coupon_Empty_String,"",10,422
+14_TypeHack_UserId_String,SUMMER10,100,200
+15_TypeHack_UserId_Float,SUMMER10,10.5,422
+16_TypeHack_UserId_Boolean_True,SUMMER10,true,422
+17_TypeHack_UserId_Boolean_False,SUMMER10,false,422
+18_TypeHack_UserId_Text,SUMMER10,not_a_number,422
+19_TypeHack_Coupon_Number,12345,10,200
+20_TypeHack_Coupon_Boolean,true,10,200
+21_Security_SQL_Injection_1,"' OR 1=1 --",1,422
+22_Security_SQL_Injection_2,"'; DROP TABLE carts;",1,422
+23_Security_SQL_Injection_3,""" OR """"=""",1,422
+24_Security_XSS_Basic,"<script>alert('hack')</script>",1,422
+25_Security_XSS_Image,"<img src=x onerror=alert(1)>",1,422
+26_Security_XSS_Body,"<body onload=alert(1)>",1,422
+27_Security_Path_Traversal,../../../etc/passwd,1,200
+28_Security_Command_Injection,SUMMER10; rm -rf /,1,422
+29_Format_Whitespace_Before,  SUMMER10,1,200
+30_Format_Whitespace_After,SUMMER10  ,1,200
+31_Format_Whitespace_Only,   ,1,422
+32_Format_Null_Byte_Injection,SUMMER10\u0000,1,422
+33_Format_Emoji_Coupon,🌞💰🚀,1,200
+34_Format_Special_Chars,!@#$%^&*(),1,200
+35_Format_Chinese_Chars,优惠券测试,1,200
+36_Format_Arabic_Chars,قسيمة,1,200
+37_Format_Long_String_No_Spaces,A1B2C3D4E5F6G7H8I9J0,1,200
+38_Missing_UserId,SUMMER10,,422
+39_Missing_Coupon,,10,200
+40_Boundary_Coupon_19_Chars,NINETEENCHARACTERS!,10,200
+41_Boundary_Coupon_4_Chars,FOUR,10,200
+42_TypeHack_UserId_Scientific,1e3,10,422
+43_TypeHack_UserId_Hexadecimal,0x1A,10,422
+44_Security_Template_Injection,{{7*7}},1,200
+45_Security_NoSQL_Injection,"{""$gt"": """"}",1,422
+46_Format_Tab_Character,\tSUMMER10,1,200
+47_Format_Newline_Character,\nSUMMER10,1,200
+48_TypeHack_Array_UserId,SUMMER10,"[1]",422
+49_TypeHack_Object_UserId,SUMMER10,"{""id"":1}",422
+50_The_Kitchen_Sink,"<script>alert(1)</script>",2147483648,422
