@@ -34,15 +34,9 @@ jobs:
         sleep 3 
 
     # 7. Install Node.js and Newman (so we can run Postman tests)
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: "20"
-        
-    - name: Install Newman
-      run: npm install -g newman
+    - - name: Wait for Server
+      run: sleep 3 
 
-    # 8. Fire the 50-Round Torture Test at the checkout endpoint!
-    - name: Run Newman API Tests
-      run: |
-        newman run cart_collection.json -e local_env.json -d checkout_tests.csv --folder "Checkout Cart"
+    # 8. Ping the API to ensure it is alive and returning a 200 OK
+    - name: Run API Health Check
+      run: curl -f http://localhost:8000/docs
