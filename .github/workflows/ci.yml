@@ -30,7 +30,21 @@ jobs:
     - name: Install Node.js & Newman
       run: |
         sudo npm install -g newman
-
+    - name: Seed Database with Test Product
+      run: |
+        python -c "
+        from database import SessionLocal, engine
+        import models
+        models.base.metadata.create_all(bind=engine)
+        db = SessionLocal()
+        if not db.query(models.Product).filter_by(id=101).first():
+            category = models.Category(name='Test Category', description='Test')
+            db.add(category)
+            db.commit()
+            product = models.Product(id=101, category_id=category.id, name='Test Product', price=10.00, stock=100)
+            db.add(product)
+            db.commit()
+        "
     - name: Run Full Lifecycle Suite
       run: |
         newman run cart_collection.json -e local_env.json --iteration-count 1

@@ -72,7 +72,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"item_id\": 101,\r\n  \"quantity\": 1\r\n}",
+          "raw": "{\r\n  \"product_id\": 101,\r\n  \"quantity\": 1\r\n}",
           "options": {
             "raw": {
               "language": "json"
