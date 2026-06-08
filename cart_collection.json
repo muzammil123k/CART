@@ -57,6 +57,55 @@
           "listen": "test",
           "script": {
             "exec": [
+              "var jsonData = pm.response.json();\r",
+              "pm.environment.set(\"current_item_id\", jsonData.id);\r",
+              "\r",
+              "pm.test(\"Successful request\", function () {\r",
+              "    pm.response.to.have.status(200); \r",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"product_id\": 101,\r\n  \"quantity\": 1\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{base_url}}/carts/{{current_cart_id}}/items",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "carts",
+            "{{current_cart_id}}",
+            "items"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add Item to Cart",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "var jsonData = pm.response.json();\r",
+              "pm.environment.set(\"current_item_id\", jsonData.id);\r",
+              "\r",
               "pm.test(\"Successful request\", function () {\r",
               "    pm.response.to.have.status(200); \r",
               "});"
@@ -113,8 +162,17 @@
       "request": {
         "method": "DELETE",
         "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
         "url": {
-          "raw": "{{base_url}}/carts/{{current_cart_id}}/items/101",
+          "raw": "{{base_url}}/carts/{{current_cart_id}}/items/{{current_item_id}}",
           "host": [
             "{{base_url}}"
           ],
@@ -122,7 +180,7 @@
             "carts",
             "{{current_cart_id}}",
             "items",
-            "101"
+            "{{current_item_id}}"
           ]
         }
       },
