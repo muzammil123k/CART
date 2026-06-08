@@ -84,7 +84,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"product_id\": {{product_id}},\r\n  \"quantity\": {{quantity}}\r\n}",
+          "raw": "{\r\n  \"item_id\": 101,\r\n  \"quantity\": 1\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -129,15 +129,15 @@
         "method": "DELETE",
         "header": [],
         "url": {
-          "raw": "{{base_url}}/carts/{{cart_id}}/items/{{item_id}}",
+          "raw": "{{base_url}}/carts/{{current_cart_id}}/items/101",
           "host": [
             "{{base_url}}"
           ],
           "path": [
             "carts",
-            "{{cart_id}}",
+            "{{current_cart_id}}",
             "items",
-            "{{item_id}}"
+            "101"
           ]
         }
       },
