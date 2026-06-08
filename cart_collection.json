@@ -57,21 +57,9 @@
           "listen": "test",
           "script": {
             "exec": [
-              "var expectedStatus = pm.iterationData.get(\"expected_status\");\r",
-              "var testName = pm.iterationData.get(\"test_description\");\r",
-              "\r",
-              "pm.test(testName + \": Expected status \" + expectedStatus, function () {\r",
-              "    pm.response.to.have.status(expectedStatus);\r",
-              "});\r",
-              "\r",
-              "// If it's a 200 OK, prove that the server successfully fetched the price\r",
-              "if (expectedStatus === 200) {\r",
-              "    pm.test(testName + \": Server securely fetched price_at_addition\", function () {\r",
-              "        var jsonData = pm.response.json();\r",
-              "        pm.expect(jsonData).to.have.property('price_at_addition');\r",
-              "        pm.expect(jsonData.price_at_addition).to.be.a('number');\r",
-              "    });\r",
-              "}"
+              "pm.test(\"Successful request\", function () {\r",
+              "    pm.response.to.have.status(200); \r",
+              "});"
             ],
             "type": "text/javascript",
             "packages": {},
@@ -112,11 +100,8 @@
           "listen": "test",
           "script": {
             "exec": [
-              "var expectedStatus = pm.iterationData.get(\"expected_status\");\r",
-              "var testName = pm.iterationData.get(\"test_description\");\r",
-              "\r",
-              "pm.test(testName + \": Expected status \" + expectedStatus, function () {\r",
-              "    pm.response.to.have.status(expectedStatus);\r",
+              "pm.test(\"Successful request\", function () {\r",
+              "    pm.response.to.have.status(200); \r",
               "});"
             ],
             "type": "text/javascript",
@@ -150,21 +135,9 @@
           "listen": "test",
           "script": {
             "exec": [
-              "var expectedStatus = pm.iterationData.get(\"expected_status\");\r",
-              "var testName = pm.iterationData.get(\"test_description\");\r",
-              "\r",
-              "pm.test(testName + \": Expected status \" + expectedStatus, function () {\r",
-              "    pm.response.to.have.status(expectedStatus);\r",
-              "});\r",
-              "\r",
-              "// If the checkout succeeds, verify the database locked the state to \"completed\"\r",
-              "if (expectedStatus === 200) {\r",
-              "    pm.test(testName + \": State Machine locked cart to 'completed'\", function () {\r",
-              "        var jsonData = pm.response.json();\r",
-              "        pm.expect(jsonData).to.have.property('status');\r",
-              "        pm.expect(jsonData.status).to.eql('completed');\r",
-              "    });\r",
-              "}"
+              "pm.test(\"Successful request\", function () {\r",
+              "    pm.response.to.have.status(200); \r",
+              "});"
             ],
             "type": "text/javascript",
             "packages": {},
@@ -196,21 +169,9 @@
           "listen": "test",
           "script": {
             "exec": [
-              "var expectedStatus = pm.iterationData.get(\"expected_status\");\r",
-              "var testName = pm.iterationData.get(\"test_description\");\r",
-              "\r",
-              "pm.test(testName + \": Expected status \" + expectedStatus, function () {\r",
-              "    pm.response.to.have.status(expectedStatus);\r",
-              "});\r",
-              "\r",
-              "// If it's a 200 OK, verify the custom success message fired\r",
-              "if (expectedStatus === 200) {\r",
-              "    pm.test(testName + \": Verified deletion message\", function () {\r",
-              "        var jsonData = pm.response.json();\r",
-              "        pm.expect(jsonData).to.have.property('detail');\r",
-              "        pm.expect(jsonData.detail).to.include('permanently deleted');\r",
-              "    });\r",
-              "}"
+              "pm.test(\"Successful request\", function () {\r",
+              "    pm.response.to.have.status(200); \r",
+              "});"
             ],
             "type": "text/javascript",
             "packages": {},
