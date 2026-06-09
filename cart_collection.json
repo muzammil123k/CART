@@ -75,7 +75,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"product_id\": 101,\r\n  \"quantity\": 1\r\n}",
+          "raw": "{\r\n  \"product_id\": 1,\r\n  \"quantity\": 1\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -121,7 +121,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"product_id\": 101,\r\n  \"quantity\": 1\r\n}",
+          "raw": "{\r\n  \"product_id\": 1,\r\n  \"quantity\": 1\r\n}",
           "options": {
             "raw": {
               "language": "json"
