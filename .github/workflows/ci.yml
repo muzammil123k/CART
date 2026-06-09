@@ -26,10 +26,38 @@ jobs:
       # Run your 50 tests. Ensure Postman is pointing to your staging/local setup as needed.
       - name: Run API Tests
         run: newman run cart_collection.json -e prod_env.json --iteration-count 10
-
+  sonarcloud:
+    name: SonarCloud Code Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          # Disabling shallow clone is strictly required by SonarCloud for accurate analysis
+          fetch-depth: 0  
+          
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          
+      - name: Install Testing Dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install pytest pytest-cov httpx
+          
+      - name: Run Tests & Generate Coverage
+        # Because we aren't passing your AWS secret here, this safely defaults to your local SQLite database!
+        run: pytest test_api.py --cov=app --cov-report=xml
+        
+      - name: Run SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   deploy:
     name: Deploy to AWS EC2
-    needs: test-api  # This is the safety valve. It MUST pass tests first.
+    needs: [test-api, sonarcloud]  # This is the safety valve. It MUST pass tests first.
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' # Strictly blocks deployment from the 'dev' branch
 
