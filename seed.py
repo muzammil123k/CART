@@ -1,7 +1,8 @@
 import logging
-from database import SessionLocal
+from database import SessionLocal,engine
 import models
-
+models.base.metadata.create_all(bind=engine)
+db = SessionLocal()
 
 logger = logging.getLogger("db_seeder")
 logger.setLevel(logging.INFO)
