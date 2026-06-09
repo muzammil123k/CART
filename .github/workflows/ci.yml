@@ -42,17 +42,12 @@ jobs:
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           script: |
             cd CART
-            
-            # Force the server to exactly match the main branch (prevents conflicts)
             git fetch origin
             git reset --hard origin/main
             
-            # Gracefully stop and remove the old container
             sudo docker stop live-cart-api || true
             sudo docker rm live-cart-api || true
-            
-            # Build the fresh Docker image
             sudo docker build -t cart-api .
             
-            # Turn the new container on and route port 80 to 8000
-            sudo docker run -d -p 80:8000 --name live-cart-api cart-api
+            # This injects your new RDS Postgres URL directly into the app at runtime
+            sudo docker run -d -p 80:8000 --name live-cart-api -e DATABASE_URL="${{ secrets.DATABASE_URL }}" cart-api
