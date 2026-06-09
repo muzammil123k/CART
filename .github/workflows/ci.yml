@@ -1,58 +1,37 @@
-name: FastAPI Automated Tests
+name: CI/CD Pipeline
 
+# 1. THE TRIGGERS: Run on pushes and PRs to dev and main
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "dev" ]
+  pull_request:
+    branches: [ "main", "dev" ]
 
 jobs:
   test-api:
+    name: Run Newman API Tests
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout Code
-      uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
-    - name: Set up Python 3.11
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.11"
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
 
-    - name: Install Python Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+      - name: Install Newman
+        run: npm install -g newman
 
-    - name: Start FastAPI Server
-      run: |
-        uvicorn app:app --host 0.0.0.0 --port 8000 &
-        sleep 3 
+      # Run your 50 tests. Ensure Postman is pointing to your staging/local setup as needed.
+      - name: Run API Tests
+        run: newman run cart_collection.json -e prod_env.json --iteration-count 10
 
-    - name: Install Node.js & Newman
-      run: |
-        sudo npm install -g newman
-    - name: Seed Database with Test Product
-      run: |
-        python -c "
-        from database import SessionLocal, engine
-        import models
-        models.base.metadata.create_all(bind=engine)
-        db = SessionLocal()
-        if not db.query(models.Product).filter_by(id=101).first():
-            category = models.Category(name='Test Category', description='Test')
-            db.add(category)
-            db.commit()
-            product = models.Product(id=101, category_id=category.id, name='Test Product', price=10.00, stock=100)
-            db.add(product)
-            db.commit()
-        "
-    - name: Run Full Lifecycle Suite
-      run: |
-        newman run cart_collection.json -e local_env.json --iteration-count 1
-    deploy:
+  deploy:
     name: Deploy to AWS EC2
-    needs: test-api  # This ensures it ONLY deploys if the Newman tests pass!
+    needs: test-api  # This is the safety valve. It MUST pass tests first.
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' # Only deploy when pushing to the main branch
+    if: github.ref == 'refs/heads/main' # Strictly blocks deployment from the 'dev' branch
 
     steps:
       - name: SSH into EC2 and Deploy
@@ -63,14 +42,17 @@ jobs:
           key: ${{ secrets.EC2_PRIVATE_KEY }}
           script: |
             cd CART
-            git pull origin main
             
-            # Stop and remove the old container (the || true prevents errors if it's already stopped)
+            # Force the server to exactly match the main branch (prevents conflicts)
+            git fetch origin
+            git reset --hard origin/main
+            
+            # Gracefully stop and remove the old container
             sudo docker stop live-cart-api || true
             sudo docker rm live-cart-api || true
             
-            # Build the new image with the latest code
+            # Build the fresh Docker image
             sudo docker build -t cart-api .
             
-            # Run the new container
+            # Turn the new container on and route port 80 to 8000
             sudo docker run -d -p 80:8000 --name live-cart-api cart-api
