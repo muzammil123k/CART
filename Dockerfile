@@ -14,7 +14,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # 6. Expose the port so the outside world can talk to FastAPI
+# ... (your previous steps like FROM, WORKDIR, COPY, RUN pip install) ...
+
+# Ensure your container informs Docker it listens on port 8000
 EXPOSE 8000
 
-# 7. The exact command the server runs when it wakes up
+# Start Uvicorn normally using the standard Exec Form
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
