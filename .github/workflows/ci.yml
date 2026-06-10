@@ -57,7 +57,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   deploy:
     name: Deploy to AWS EC2
-    #needs: test-api  # Keeps your pipeline safety locks secure
+    needs: test-api  # Keeps your pipeline safety locks secure
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
