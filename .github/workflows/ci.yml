@@ -56,12 +56,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
   deploy:
-    #name: Deploy to AWS EC2
     name: Deploy to AWS EC2
-    #needs: [test-api, sonarcloud]  # This is the safety valve. It MUST pass tests first.
+    needs: test-api  # Keeps your pipeline safety locks secure
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' # Strictly blocks deployment from the 'dev' branch
-
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: SSH into EC2 and Deploy
         uses: appleboy/ssh-action@v1.0.3
@@ -74,9 +72,8 @@ jobs:
             git fetch origin
             git reset --hard origin/main
             
-            sudo docker stop live-cart-api || true
-            sudo docker rm live-cart-api || true
-            sudo docker build -t cart-api .
+            # Extract your AWS RDS URL from GitHub Secrets and make it available to the script
+            export DATABASE_URL="${{ secrets.DATABASE_URL }}"
             
-            # This injects your new RDS Postgres URL directly into the app at runtime
-            sudo docker run -d -p 80:8000 --name live-cart-api -e DATABASE_URL="${{ secrets.DATABASE_URL }}" cart-api
+            # Run the Blue-Green zero-downtime orchestration script
+            bash deploy.sh
