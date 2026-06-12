@@ -1,0 +1,72 @@
+name: Dynamic Blue/Green Production Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-and-flip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name:  Checkout Code
+        uses: actions/checkout@v4
+
+      - name:  Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name:  Determine Standby Environment (The Ping-Pong Logic)
+        id: inspect-env
+        run: |
+          BLUE_TG="arn:aws:elasticloadbalancing:us-east-1:972553756445:targetgroup/CART-TG-Blue/819b9b46f70712f6"
+          GREEN_TG="arn:aws:elasticloadbalancing:us-east-1:972553756445:targetgroup/CART-TG-Green/0e11a1afa5a9652b"
+          LISTENER_ARN="arn:aws:elasticloadbalancing:us-east-1:972553756445:listener/app/CART-Production-ALB/4ea08299239ec53d/465164341840526a"
+
+          echo "Checking the current live environment on the ALB..."
+          
+          # Fetch the active Target Group ARN currently running production traffic
+          CURRENT_TG=$(aws elbv2 describe-listeners --listener-arns "$LISTENER_ARN" --query "Listeners[0].DefaultActions[0].TargetGroupArn" --output text)
+
+          if [ "$CURRENT_TG" = "$BLUE_TG" ]; then
+            echo " Blue is currently LIVE. Preparing deployment to standby: 🟢 GREEN."
+            echo "STANDBY_IP=${{ secrets.GREEN_SERVER_IP }}" >> $GITHUB_ENV
+            echo "STANDBY_TG=$GREEN_TG" >> $GITHUB_ENV
+            echo "DOCKER_CONTAINER=cart-api-green" >> $GITHUB_ENV
+          else
+            echo " Green is currently LIVE. Preparing deployment to standby: 🔵 BLUE."
+            echo "STANDBY_IP=${{ secrets.BLUE_SERVER_IP }}" >> $GITHUB_ENV
+            echo "STANDBY_TG=$BLUE_TG" >> $GITHUB_ENV
+            echo "DOCKER_CONTAINER=cart-api-blue" >> $GITHUB_ENV
+          fi
+
+      - name:  Deploy New Code to Standby Server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ env.STANDBY_IP }}
+          username: ubuntu
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            # Navigate to the project directory on whichever server is standby
+            cd /path/to/your/project
+            
+            echo "Pulling latest branch updates..."
+            git pull origin main
+            
+            echo "Restarting application container: ${{ env.DOCKER_CONTAINER }}..."
+            sudo docker restart ${{ env.DOCKER_CONTAINER }}
+
+      - name:  Optional: Wait for Health Check Warmup
+        run: sleep 15
+
+      - name:  Flip Load Balancer Traffic to Newly Updated Server
+        run: |
+          aws elbv2 modify-listener \
+            --listener-arn "arn:aws:elasticloadbalancing:us-east-1:972553756445:listener/app/CART-Production-ALB/4ea08299239ec53d/465164341840526a" \
+            --default-actions "Type=forward,TargetGroupArn=${{ env.STANDBY_TG }}"
+          
+          echo " Cutover successful! Traffic rerouted perfectly."
